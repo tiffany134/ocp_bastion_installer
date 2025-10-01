@@ -1,0 +1,90 @@
+global
+  log         127.0.0.1 local2
+  pidfile     /var/run/haproxy.pid
+  maxconn     4000
+  daemon
+defaults
+  mode                    http
+  log                     global
+  option                  dontlognull
+  option http-server-close
+  option                  redispatch
+  retries                 3
+  timeout http-request    10s
+  timeout queue           1m
+  timeout connect         10s
+  timeout client          1m
+  timeout server          1m
+  timeout http-keep-alive 10s
+  timeout check           10s
+  maxconn                 3000
+listen api-server-6443 
+  bind *:6443
+  mode tcp
+  option  httpchk GET /readyz HTTP/1.0
+  option  log-health-checks
+  balance roundrobin
+  server {{ bootstrap.name }} {{ bootstrap.ip }}:6443 verify none check check-ssl inter 10s fall 2 rise 3 backup 
+{% for node in master %}
+  server {{ node.name }} {{ node.ip }}:6443 weight 1 verify none check check-ssl inter 10s fall 2 rise 3
+{% endfor %}
+listen machine-config-server-22623 
+  bind *:22623
+  mode tcp
+  server {{ bootstrap.name }} {{ bootstrap.ip }}:22623 check inter 1s backup 
+{% for node in master %}
+  server {{ node.name }} {{ node.ip }}:22623 check inter 1s
+{% endfor %}
+
+{%- if mode == 'compact' %}
+listen ingress-router-443
+  bind *:443
+  mode tcp
+  balance source
+{% for node in master %}
+  server {{ node.name }} {{ node.ip }}:443 check inter 1s
+{% endfor -%}
+
+listen ingress-router-80
+  bind *:80
+  mode tcp
+  balance source
+{% for node in master %}
+  server {{ node.name }} {{ node.ip }}:80 check inter 1s
+{% endfor %}
+
+{%- elif infra is defined %}
+listen ingress-router-443 
+  bind *:443
+  mode tcp
+  balance source
+{% for node in infra %}
+  server {{ node.name }} {{ node.ip }}:443 check inter 1s
+{% endfor -%}
+
+listen ingress-router-80
+  bind *:80
+  mode tcp
+  balance source
+{% for node in infra %}
+  server {{ node.name }} {{ node.ip }}:80 check inter 1s
+{% endfor %}
+
+{%- else %}
+listen ingress-router-443 
+  bind *:443
+  mode tcp
+  balance source
+{% for node in worker %}
+  server {{ node.name }} {{ node.ip }}:443 check inter 1s
+{% endfor -%}
+
+listen ingress-router-80
+  bind *:80
+  mode tcp
+  balance source
+{% for node in worker %}
+  server {{ node.name }} {{ node.ip }}:80 check inter 1s
+{% endfor %}
+
+{%- endif %}

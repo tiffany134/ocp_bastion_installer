@@ -1,0 +1,82 @@
+---
+online: false
+
+# compact or standard mode
+mode: standard
+
+# 依個人需求啟動或關閉防火牆與 SELinux 等服務與功能
+firewalld_disable: true
+selinux_disable: true 
+
+# 啟用或停用 DNS配置、網卡(NIC)名稱、DNS 上游伺服器位址
+dns_configure: true
+interface: ens192
+dns_upstream: 172.31.233.1
+
+# 是否 DNS 檢查
+dns_check: true
+dns_ip: 172.31.233.1
+
+# 是否啟用負載平衡配置
+haproxy_configure: true
+
+# 鏡像庫配置
+registry_configure: true
+mirrorRegistryDir: /root/install_source/mirror-registry.tar.gz
+quayRoot: /mirror-registry
+quayStorage: /mirror-registry/storage
+registryPassword: P@ssw0rd
+
+# NTP server
+ntp_server_configure: true
+# NTP client
+ntp_client_configure: true
+ntp_server_ip: 172.31.233.1
+butaneDir: /root/install_source/butane-amd64
+
+# OCP 相關配置
+ocp_configure: true
+# 定義叢集名稱
+clusterName: ocp4
+# 定義叢集基礎域名
+baseDomain: example.com
+# 定義資源檔案之絕對路徑: 如公鑰、OCP 所需指令壓縮檔位置等
+sshKeyDir: /root/.ssh/id_rsa.pub
+ocpInstallDir: /root/install_source/openshift-install-rhel9-amd64.tar.gz
+ocpClientDir: /root/install_source/openshift-client-linux-amd64-rhel9-4.18.8.tar.gz
+# 連線安裝所需之 pull-secret 位置
+pullSecretDir: /root/.docker/config.json
+
+# 從磁碟到鏡像的同步
+mirror: true
+ocmirrorSource: /root/install_source/oc-mirror.rhel9.tar.gz
+imageSetFile: /root/install_source/mirror/generated
+reponame: ocp418
+
+# 節點的基本設定 (將不需要的節點註解掉)
+bastion:
+  name: bastion
+  ip: 172.31.222.138
+bootstrap:
+  name: bootstrap
+  ip: 172.31.222.101
+master:
+- name: master1
+  ip: 172.31.222.103
+- name: master2
+  ip: 172.31.222.104
+- name: master3
+  ip: 172.31.222.105
+# standard mode nodes
+infra:
+- name: infraworker01
+  ip: 172.31.222.176
+- name: infraworker02
+  ip: 172.31.222.177
+- name: infraworker03
+  ip: 172.31.222.178
+worker: 
+- name: vmworker01
+  ip: 172.31.222.144
+- name: vmworker02
+  ip: 172.31.222.146

@@ -1,0 +1,14 @@
+---
+#- name: Install haproxy
+# ansible.builtin.yum:
+#   name: haproxy
+#   state: latest
+
+- name: Modify haproxy configuration
+  ansible.builtin.template:
+    src: haproxy.j2
+    dest: /etc/haproxy/haproxy.cfg
+  notify:
+  - restart haproxy
+- name: Force haproxy service restart for haproxy check tasks
+  ansible.builtin.meta: flush_handlers

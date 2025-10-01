@@ -1,0 +1,49 @@
+---
+# - name: "install kvm"
+
+- name: Disable firewalld
+  include_tasks: firewalld.yml
+  when: firewalld_disable 
+
+- name: Disable selinux
+  include_tasks: selinux.yml
+  when: selinux_disable 
+
+- name: Setup DNS
+  include_tasks: dns.yml
+  when: dns_configure 
+
+- name: Check DNS records
+  include_tasks: dnscheck.yml
+  when: dns_check
+  args:
+    apply:
+        delegate_to: 127.0.0.1
+
+- name: Setup loadbalancer
+  include_tasks: haproxy.yml
+  when: haproxy_configure 
+
+# - name: "check lb settings"
+
+- name: Setup NTP Server
+  include_tasks: ntp-server.yml
+  when: ntp_server_configure
+
+- name: Setup mirror registry
+  include_tasks: mirror-registry.yml
+  when: registry_configure 
+
+- name: Install Packages
+  include_tasks: packages.yml
+
+- name: Install clis
+  include_tasks: setup-cli.yml
+
+- name: Setup OCP files
+  include_tasks: ocp.yml
+  when: ocp_configure
+
+    #- name: Mirroring from disk to mirror
+    #include_tasks: mirroring-from-disk-to-mirror.yml
+    #when: mirror

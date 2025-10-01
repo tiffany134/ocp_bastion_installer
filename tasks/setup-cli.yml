@@ -1,0 +1,55 @@
+---
+- name: Check ocp install cli exists
+  ansible.builtin.stat:
+    path: /usr/bin/openshift-install
+  register: install_cli
+
+- name: Extract ocp install cli
+  ansible.builtin.unarchive:
+    remote_src: true
+    src: "{{ ocpInstallDir }}"
+    dest: /usr/bin/
+    list_files: true
+  register: unarchive_install_cli
+  when: install_cli.stat.exists == False
+
+- name: Move unarchive_install_cli file to openshift-install
+  when: install_cli.stat.exists == False and unarchive_install_cli.files != 'openshift-install'
+  block:
+    - name: Copy file to openshift-install
+      ansible.builtin.copy:
+        remote_src: true
+        src: /usr/bin/{{ unarchive_install_cli.files[0]}}
+        dest: /usr/bin/openshift-install
+        mode: preserve
+    - name: Remove file
+      ansible.builtin.file:
+        path: /usr/bin/{{ unarchive_install_cli.files[0]}}
+        state: absent
+
+- name: Check ocp client cli exists
+  ansible.builtin.stat:
+    path: /usr/bin/oc
+  register: client_cli
+
+- name: Extract ocp client cli
+  ansible.builtin.unarchive:
+    remote_src: true
+    src: "{{ ocpClientDir }}"
+    dest: /usr/bin/
+  when: client_cli.stat.exists == False
+
+- name: Bash completion for oc command
+  ansible.builtin.shell: "oc completion bash > /etc/bash_completion.d/oc_bash_completion"
+
+- name: Copy butane to /usr/bin
+  ansible.builtin.copy:
+    remote_src: true
+    src: "{{ butaneDir }}"
+    dest: /usr/bin/butane
+    mode: preserve
+
+- name: change butane permission 
+  ansible.builtin.file:
+    path: /usr/bin/butane
+    mode: a+x

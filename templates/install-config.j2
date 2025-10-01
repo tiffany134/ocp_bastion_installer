@@ -1,0 +1,38 @@
+apiVersion: v1
+baseDomain: {{ baseDomain }}
+compute:
+- hyperthreading: Enabled
+  name: worker
+  replicas: 0
+controlPlane:
+  hyperthreading: Enabled
+  name: master
+  replicas: 3
+metadata:
+  name: {{ clusterName }}
+networking:
+  clusterNetwork:
+  - cidr: 10.128.0.0/14
+    hostPrefix: 23
+  networkType: OVNKubernetes
+  serviceNetwork:
+  - 172.30.0.0/16
+platform:
+  none: {}
+fips: false
+{% if online == false  %}
+pullSecret: '{"auths":{"{{ bastion.name }}.{{ clusterName }}.{{ baseDomain }}:8443":{"auth":"{{ ('init:'+registryPassword) | b64encode }}"}}}'
+sshKey: '{{ sshkey.stdout }}'
+additionalTrustBundle: |
+{{ (mirrorRegistryCA['content'] | b64decode) | indent(width=2,first=True) }}
+imageContentSources:
+- mirrors:
+  - {{ bastion.name }}.{{ clusterName }}.{{ baseDomain }}:8443/{{ reponame }}/openshift/release
+  source: quay.io/openshift-release-dev/ocp-v4.0-art-dev
+- mirrors:
+  - {{ bastion.name }}.{{ clusterName }}.{{ baseDomain }}:8443/{{ reponame }}/openshift/release-images
+  source: quay.io/openshift-release-dev/ocp-release
+{% else%}
+pullSecret: '{{ pullsecret.stdout }}'
+sshKey: '{{ sshkey.stdout }}'
+{% endif %}

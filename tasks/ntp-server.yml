@@ -1,0 +1,17 @@
+---
+- name: Backup chrony.conf
+  ansible.builtin.copy:
+    remote_src: true
+    src: /etc/chrony.conf
+    dest: /etc/chrony.conf.bk
+
+- name: Modify chronyd configuration
+  ansible.builtin.template:
+    src: chrony.j2
+    dest: /etc/chrony.conf
+
+- name: Start chronyd
+  ansible.builtin.service:
+    name: chronyd
+    state: restarted
+    enabled: true

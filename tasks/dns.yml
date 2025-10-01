@@ -1,0 +1,39 @@
+---
+#- name: Install DNS
+# ansible.builtin.yum:
+#   name: dnsmasq
+#   state: latest
+
+- name: Modify DNS configuration
+  ansible.builtin.lineinfile:
+    path: /etc/dnsmasq.conf
+    regexp: "^interface="
+    line: "interface={{ interface }}"
+  notify:
+  - restart dns
+
+- name: Modify DNS configuration
+  ansible.builtin.template:
+    src: dns.j2
+    dest: /etc/dnsmasq.d/dns.conf
+  notify:
+  - restart dns
+
+- name: Start DNS
+  ansible.builtin.service:
+    name: dnsmasq
+    state: started
+    enabled: true
+
+- name: Manage DNS in NetworkManager
+  ansible.builtin.command: "nmcli connection modify {{ interface }} ipv4.dns {{ dns_ip}}"
+  # ansible.builtin.command: "nmcli connection modify {{ interface }} ipv4.dns {{ bastion.ip }}"
+  notify:
+  - restart NetworkManager
+    #- name: update 
+    #  ansible.builtin.command: "service NetworkManager restart"
+
+- name: Force DNS service restart for DNS check tasks
+  ansible.builtin.meta: flush_handlers
+
+# - name: Update nic dns setting

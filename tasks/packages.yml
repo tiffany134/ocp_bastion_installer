@@ -1,0 +1,25 @@
+#- name: Install net-tools
+# ansible.builtin.yum:
+#   name: net-tools
+#   state: latest
+
+#- name: Install git
+# ansible.builtin.yum:
+#   name: git
+#   state: latest
+
+# - name: Install httpd
+#   ansible.builtin.yum:
+#     name: httpd
+#     state: latest
+
+- name: Modify httpd configuration
+  ansible.builtin.lineinfile:
+    path: /etc/httpd/conf/httpd.conf
+    regexp: "^Listen"
+    line: "Listen 8080"
+  notify:
+  - restart httpd
+
+- name: Force httpd service restart for httpd check tasks
+  ansible.builtin.meta: flush_handlers

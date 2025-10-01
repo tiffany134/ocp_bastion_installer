@@ -1,0 +1,44 @@
+---
+#- name: Install podman
+# ansible.builtin.yum:
+#   name: podman
+#   state: present
+
+- name: Check mirror registry installed or not
+  ansible.builtin.wait_for:
+    host: "{{ bastion.ip }}"
+    port: 8443
+    timeout: 10
+  register: result
+  ignore_errors: true
+
+- name: Print message
+  ansible.builtin.debug:
+    msg: "Mirror Registry already installed or port is already used by other service"
+  when: not result.failed
+
+- name: Initiating mental GC cycle (10-minute break protocol)
+  ansible.builtin.debug:
+    msg: "Time for a 10-minute break—go garbage collect your brain memory."
+  when: result.failed
+
+- name: Unarchive mirror registry
+  ansible.builtin.unarchive:
+    remote_src: true
+    src: "{{ mirrorRegistryDir }}"
+    dest: "."
+    mode: "u+x"
+  when: result.failed
+
+- name: Install mirror registry
+  ansible.builtin.command: "./mirror-registry install --quayHostname {{ bastion.name }}.{{ clusterName }}.{{ baseDomain }}:8443 --quayRoot {{ quayRoot }} --quayStorage {{ quayStorage }} --initPassword {{ registryPassword }}"
+  register: registryResult
+  when: result.failed
+
+- name: Trust mirror registry CA
+  ansible.builtin.command: 
+    cmd: "{{ item }}"
+  loop:
+  -  cp {{ quayRoot }}/quay-rootCA/rootCA.pem /etc/pki/ca-trust/source/anchors/
+  - update-ca-trust
+  when: result.failed

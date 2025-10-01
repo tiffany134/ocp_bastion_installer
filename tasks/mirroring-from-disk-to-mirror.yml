@@ -1,0 +1,37 @@
+---
+#https://docs.openshift.com/container-platform/4.16/installing/disconnected_install/installing-mirroring-disconnected.html#mirroring-image-set-full
+#oc-mirror --from ./mirror_seq1_000000.tar docker://quay.ocp.exmple.com:8443/ocp416
+- name: Unarchive oc mirror 
+  ansible.builtin.unarchive:
+    remote_src: true
+    src: "{{ ocmirrorSource }}"
+    dest: /usr/bin
+    mode: "u+x"
+
+- name: Login
+  ansible.builtin.command:
+    cmd: podman login {{ bastion.name }}.{{ clusterName }}.{{ baseDomain }}:8443 -uinit -p{{ registryPassword }}
+
+- name: Initiate brain defrag and coffee refill sequence
+  ansible.builtin.debug:
+    msg:
+      - " One-hour downtime initiated. Time to defrag your brain and recharge your coffee levels. "
+      - "                    "
+      - "        ( (         "
+      - "         ) )        "
+      - "      ........      "
+      - "      |      |]     "
+      - "      \       /      "
+      - "       `----'       "
+      - "  ~ Coffee Time ~   "
+
+
+- name: Mirroing from disk to mirror
+  #ansible.builtin.command:
+  # cmd: oc-mirror --v2 --config /root/install/ocp418/imageset-config-v2.yaml --from file://{{ imageSetFile }} docker://{{ bastion.name }}.{{ clusterName }}.{{ baseDomain }}:8443/{{ reponame }}
+  ansible.builtin.shell: |
+    oc mirror --v2 --config /root/install/ocp418/imageset-config-v2.yaml \
+    --from file:///{{ imageSetFile }} \
+    docker://{{ bastion.name }}.{{ clusterName }}.{{ baseDomain }}:8443/{{ reponame }} \
+    > /tmp/oc-mirror.log 2>&1
+

@@ -1,0 +1,134 @@
+---
+
+- name: Check install dir exists
+  ansible.builtin.stat:
+    path: /root/ocp4
+  register: install_dir
+
+- name: Remove old install dir
+  ansible.builtin.file:
+    path: /root/ocp4
+    state: absent
+  when: install_dir.stat.exists == True
+
+- name: Create install dir
+  ansible.builtin.file:
+    path: /root/ocp4
+    state: directory
+    mode: 0755
+
+- name: Get pull secret value
+  ansible.builtin.command: "cat {{ pullSecretDir }}"
+  register: pullsecret
+  when: online
+
+- name: Get ssh key value
+  ansible.builtin.command: "cat {{ sshKeyDir }}"
+  register: sshkey
+
+- name: Get CA value
+  ansible.builtin.slurp:
+    src: "{{ quayRoot }}/quay-rootCA/rootCA.pem"
+  register: mirrorRegistryCA
+  when: not online 
+
+- name: Create install config
+  ansible.builtin.template:
+    src: install-config.j2
+    dest: /root/ocp4/install-config.yaml
+
+- name: Copy install dir
+  ansible.builtin.copy:
+    remote_src: true
+    src: /root/ocp4/
+    dest: /root/ocp4-backup
+    mode: preserve
+
+- name: Generate manifests
+  ansible.builtin.command: openshift-install create manifests --dir=/root/ocp4
+
+- name: Add master chrony machineConfig
+  when: ntp_client_configure
+  block:
+    - name: Create master Butane config
+      ansible.builtin.template:
+        src: 99-master-chrony.bu.j2
+        dest: /root/ocp4-backup/99-master-chrony.yaml
+    - name: Generate master MachineConfig object file
+      ansible.builtin.command: butane /root/ocp4-backup/99-master-chrony.yaml -o /root/ocp4/openshift/99-master-chrony.yaml
+
+- name: Add worker chrony machineConfig
+  when: ntp_client_configure and mode != 'compact'
+  block:
+    - name: Create worker Butane config
+      ansible.builtin.template:
+        src: 99-worker-chrony.bu.j2
+        dest: /root/ocp4-backup/99-worker-chrony.yaml
+    - name: Generate worker MachineConfig object file
+      ansible.builtin.command: butane /root/ocp4-backup/99-worker-chrony.yaml -o /root/ocp4/openshift/99-worker-chrony.yaml
+  
+- name: Modify scheduler config
+  ansible.builtin.lineinfile:
+    path: /root/ocp4/manifests/cluster-scheduler-02-config.yml
+    regexp: "^[\\s]*mastersSchedulable"
+    line: "  mastersSchedulable: false"
+  when: mode != 'compact'
+
+- name: Generate ignition files
+  ansible.builtin.command: openshift-install create ignition-configs --dir=/root/ocp4
+
+- name: Find old ignition files
+  ansible.builtin.find:
+    paths: /var/www/html
+    patterns: '*.ign'
+  register: old_ign_files
+
+- name: Remove old ignition files
+  ansible.builtin.file:
+    path: "{{ item.path }}"
+    state: absent
+  loop: "{{ old_ign_files.files }}"
+
+- name: Find all .ign files in /root/ocp4
+  ansible.builtin.find:
+    paths: /root/ocp4
+    patterns: '*.ign'
+  register: ign_files
+
+- name: Copy .ign files to /var/www/html
+  ansible.builtin.copy:
+    src: "{{ item.path }}"
+    dest: "/var/www/html/{{ item.path | basename }}"
+    remote_src: yes
+    mode: preserve
+  loop: "{{ ign_files.files }}"
+
+- name: Create install.sh script
+  ansible.builtin.copy:
+    dest: /var/www/html/install.sh
+    mode: '0755'
+    content: |
+      #!/bin/bash
+
+      # curl http://['bastion ip']:8080/install.sh | bash -s - /dev/sda worker
+
+      DEVICE="$1"
+      ROLE="$2"
+
+      if [ -z "$DEVICE" ] || [ -z "$ROLE" ]; then
+        echo "Usage: $0 <device> <role>"
+        exit 1
+      fi
+
+      echo "Installing CoreOS to $DEVICE using role $ROLE..."
+      coreos-installer install "$DEVICE" \
+        -I http://{{ bastion.ip }}:8080/${ROLE}.ign \
+        --insecure-ignition -n
+
+- name: Granted read permission for httpd files
+  ansible.builtin.file:
+    path: /var/www/html
+    state: directory
+    recurse: yes
+    mode: u=rw,g=r,o=rX
+

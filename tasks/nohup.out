@@ -1,0 +1,775 @@
+[Sun Jul 20 05:28:09 PM CST 2025] [32mINFO[0m： TARBALL_PATH   = /root/install_source/ansible-navigator-rpm-9.4.tar
+[Sun Jul 20 05:28:09 PM CST 2025] [32mINFO[0m： TAR_DEST_PATH  = /root/install_source/ansible-navigator-rpm-9.4
+[Sun Jul 20 05:28:09 PM CST 2025] [32mINFO[0m： EE_IMAGE_TAR   = /root/install_source/eeimage-v1.tar
+[Sun Jul 20 05:28:09 PM CST 2025] [32mINFO[0m： EE_IMAGE_NAME  = quay.io/rhtw/ee-bas-auto:v1.0
+ansible-navigator-rpm-9.4/bzip2-libs-1.0.8-8.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/filesystem-3.16-2.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/gnupg2-2.3.3-4.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libattr-2.5.1-3.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libbrotli-1.0.9-6.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libgpg-error-1.42-5.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libksba-1.5.1-6.el9_1.x86_64.rpm
+ansible-navigator-rpm-9.4/libxcrypt-4.4.18-3.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/publicsuffix-list-dafsa-20210518-3.el9.noarch.rpm
+ansible-navigator-rpm-9.4/sed-4.8-9.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/xz-libs-5.2.5-8.el9_0.x86_64.rpm
+ansible-navigator-rpm-9.4/gmp-6.2.0-13.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/kmod-28-9.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libcbor-0.7.0-5.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libdb-5.3.28-53.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libseccomp-2.5.2-2.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libunistring-0.9.10-15.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/shadow-utils-4.9-8.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/cracklib-dicts-2.9.6-27.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/cyrus-sasl-lib-2.1.27-21.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/gdbm-libs-1.19-4.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/jansson-2.14-1.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libcap-2.48-9.el9_2.x86_64.rpm
+ansible-navigator-rpm-9.4/libeconf-0.4.1-3.el9_2.x86_64.rpm
+ansible-navigator-rpm-9.4/libidn2-2.3.0-7.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libsigsegv-2.13-4.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libverto-0.3.2-3.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libzstd-1.5.1-2.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/pcre-8.44-3.el9.3.x86_64.rpm
+ansible-navigator-rpm-9.4/protobuf-c-1.3.3-13.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/cracklib-2.9.6-27.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/gpgme-1.15.1-6.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/grep-3.6-5.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/keyutils-libs-1.6.3-1.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libcap-ng-0.8.2-7.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libedit-3.1-38.20210216cvs.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libnfnetlink-1.0.1-21.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libpwquality-1.4.4-8.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/lz4-libs-1.9.3-5.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/mpfr-4.1.0-7.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/ncurses-base-6.2-10.20210508.el9.noarch.rpm
+ansible-navigator-rpm-9.4/sqlite-libs-3.34.1-7.el9_3.x86_64.rpm
+ansible-navigator-rpm-9.4/alternatives-1.24-1.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/gawk-5.1.0-6.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/gzip-1.12-1.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libassuan-2.5.5-3.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libffi-3.4.2-8.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libpsl-0.21.1-5.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libtasn1-4.16.0-8.el9_1.x86_64.rpm
+ansible-navigator-rpm-9.4/libutempter-1.2.1-6.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libyaml-0.2.5-7.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/npth-1.6-8.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/readline-8.1-4.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/shadow-utils-subid-4.9-8.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/audit-libs-3.1.2-2.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/basesystem-11-13.el9.noarch.rpm
+ansible-navigator-rpm-9.4/bash-5.1.8-9.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/coreutils-8.32-35.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/coreutils-common-8.32-35.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/crypto-policies-20240202-1.git283706d.el9.noarch.rpm
+ansible-navigator-rpm-9.4/fuse-common-3.10.2-8.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libacl-2.3.1-4.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libcom_err-1.46.5-5.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libfido2-1.13.0-2.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libgcc-11.4.1-3.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libgcrypt-1.10.0-10.el9_2.x86_64.rpm
+ansible-navigator-rpm-9.4/libnetfilter_conntrack-1.0.9-1.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libnl3-3.9.0-1.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libselinux-3.6-1.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libsemanage-3.6-1.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libsepol-3.6-1.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libssh-0.10.4-13.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libssh-config-0.10.4-13.el9.noarch.rpm
+ansible-navigator-rpm-9.4/libtirpc-1.3.3-8.el9_4.x86_64.rpm
+ansible-navigator-rpm-9.4/ncurses-libs-6.2-10.20210508.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/nettle-3.9.1-1.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/nftables-1.0.9-1.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/oniguruma-6.9.6-1.el9.5.x86_64.rpm
+ansible-navigator-rpm-9.4/openldap-2.6.6-3.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/openssl-fips-provider-3.0.7-2.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/p11-kit-0.25.3-2.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/p11-kit-trust-0.25.3-2.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/pam-1.5.1-19.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/pcre2-10.40-5.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/pcre2-syntax-10.40-5.el9.noarch.rpm
+ansible-navigator-rpm-9.4/zlib-1.2.11-40.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libblkid-2.37.4-18.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libfdisk-2.37.4-18.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libmount-2.37.4-18.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libsmartcols-2.37.4-18.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libuuid-2.37.4-18.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/setup-2.13.7-10.el9.noarch.rpm
+ansible-navigator-rpm-9.4/util-linux-2.37.4-18.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/util-linux-core-2.37.4-18.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/gnutls-3.8.3-4.el9_4.x86_64.rpm
+ansible-navigator-rpm-9.4/libnghttp2-1.43.0-5.el9_4.3.x86_64.rpm
+ansible-navigator-rpm-9.4/less-590-4.el9_4.x86_64.rpm
+ansible-navigator-rpm-9.4/openssh-8.7p1-38.el9_4.4.x86_64.rpm
+ansible-navigator-rpm-9.4/openssh-clients-8.7p1-38.el9_4.4.x86_64.rpm
+ansible-navigator-rpm-9.4/libcurl-7.76.1-29.el9_4.1.x86_64.rpm
+ansible-navigator-rpm-9.4/ca-certificates-2024.2.69_v8.0.303-91.4.el9_4.noarch.rpm
+ansible-navigator-rpm-9.4/redhat-release-9.4-0.5.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/redhat-release-eula-9.4-0.5.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libevent-2.1.12-8.el9_4.x86_64.rpm
+ansible-navigator-rpm-9.4/libnftnl-1.2.6-4.el9_4.x86_64.rpm
+ansible-navigator-rpm-9.4/iptables-libs-1.8.10-4.el9_4.x86_64.rpm
+ansible-navigator-rpm-9.4/iptables-nft-1.8.10-4.el9_4.x86_64.rpm
+ansible-navigator-rpm-9.4/libmnl-1.0.4-16.el9_4.x86_64.rpm
+ansible-navigator-rpm-9.4/krb5-libs-1.21.1-2.el9_4.x86_64.rpm
+ansible-navigator-rpm-9.4/systemd-libs-252-32.el9_4.7.x86_64.rpm
+ansible-navigator-rpm-9.4/glib2-2.68.4-14.el9_4.1.x86_64.rpm
+ansible-navigator-rpm-9.4/tar-1.34-6.el9_4.1.x86_64.rpm
+ansible-navigator-rpm-9.4/expat-2.5.0-2.el9_4.1.x86_64.rpm
+ansible-navigator-rpm-9.4/openssl-3.0.7-28.el9_4.x86_64.rpm
+ansible-navigator-rpm-9.4/openssl-libs-3.0.7-28.el9_4.x86_64.rpm
+ansible-navigator-rpm-9.4/glibc-2.34-100.el9_4.4.x86_64.rpm
+ansible-navigator-rpm-9.4/glibc-common-2.34-100.el9_4.4.x86_64.rpm
+ansible-navigator-rpm-9.4/glibc-gconv-extra-2.34-100.el9_4.4.x86_64.rpm
+ansible-navigator-rpm-9.4/glibc-minimal-langpack-2.34-100.el9_4.4.x86_64.rpm
+ansible-navigator-rpm-9.4/tzdata-2024b-2.el9.noarch.rpm
+ansible-navigator-rpm-9.4/ansible-builder-3.1.0-1.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/bindep-2.11.0-2.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-attrs-22.2.0-1.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-black-24.4.2-2.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-bracex-2.4-1.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-click-8.1.7-1.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-cryptography-42.0.5-1.el9ap.x86_64.rpm
+ansible-navigator-rpm-9.4/python3.11-daemon-2.3.2-1.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-distro-1.9.0-1.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-docutils-0.20.1-2.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-filelock-3.13.1-1.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-importlib-metadata-6.0.1-2.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-jsonschema-4.21.1-1.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-jsonschema-specifications-2023.12.1-1.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-lockfile-0.12.2-2.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-markupsafe-2.1.5-1.el9ap.x86_64.rpm
+ansible-navigator-rpm-9.4/python3.11-mypy-extensions-1.0.0-1.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-onigurumacffi-1.3.0-1.el9ap.x86_64.rpm
+ansible-navigator-rpm-9.4/python3.11-packaging-23.2-1.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-parsley-1.3-3.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-pathspec-0.12.1-1.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-pbr-6.0.0-2.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-pexpect-4.9.0-1.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-platformdirs-4.2.0-1.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-ptyprocess-0.7.0-1.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-resolvelib-1.0.1-1.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-rpds-py-0.18.1-1.el9ap.x86_64.rpm
+ansible-navigator-rpm-9.4/python3.11-ruamel-yaml-0.18.6-1.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-ruamel-yaml-clib-0.2.8-1.el9ap.x86_64.rpm
+ansible-navigator-rpm-9.4/python3.11-subprocess-tee-0.4.1-2.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-typing-extensions-4.9.0-1.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-wcmatch-8.5-1.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-zipp-3.19.2-1.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/sshpass-1.09-5.el9ap.x86_64.rpm
+ansible-navigator-rpm-9.4/yamllint-1.35.1-1.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/ansible-core-2.16.14-2.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-referencing-0.36.2-1.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-jinja2-3.1.6-1.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/ansible-runner-2.4.1-1.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-ansible-runner-2.4.1-1.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/ansible-lint-25.5.0-1.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/ansible-navigator-25.5.0-1.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-ansible-compat-25.5.0-1.el9ap.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-ply-3.11-1.el9.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-cffi-1.15.1-1.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/python3.11-pyyaml-6.0-1.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/python3.11-pycparser-2.20-1.el9.noarch.rpm
+ansible-navigator-rpm-9.4/libnsl2-2.0.0-1.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libslirp-4.4.0-7.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/gawk-all-langpacks-5.1.0-6.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libnet-1.2-6.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/yajl-2.1.0-22.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/mpdecimal-2.5.1-3.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/libxcrypt-compat-4.4.18-3.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/conmon-2.1.10-1.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/criu-3.19-1.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/criu-libs-3.19-1.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/crun-1.14.3-1.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/fuse-overlayfs-1.13-1.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/fuse3-3.10.2-8.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/fuse3-libs-3.10.2-8.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/netavark-1.10.3-1.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/python3.11-pip-wheel-22.3.1-5.el9.noarch.rpm
+ansible-navigator-rpm-9.4/slirp4netns-1.2.3-1.el9.x86_64.rpm
+ansible-navigator-rpm-9.4/aardvark-dns-1.10.0-3.el9_4.x86_64.rpm
+ansible-navigator-rpm-9.4/containers-common-1-91.el9_4.x86_64.rpm
+ansible-navigator-rpm-9.4/git-core-2.43.5-1.el9_4.x86_64.rpm
+ansible-navigator-rpm-9.4/python3.11-setuptools-65.5.1-2.el9_4.1.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-setuptools-wheel-65.5.1-2.el9_4.1.noarch.rpm
+ansible-navigator-rpm-9.4/python3.11-3.11.7-1.el9_4.6.x86_64.rpm
+ansible-navigator-rpm-9.4/python3.11-libs-3.11.7-1.el9_4.6.x86_64.rpm
+ansible-navigator-rpm-9.4/podman-4.9.4-16.el9_4.x86_64.rpm
+ansible-navigator-rpm-9.4/ansible-navigator.log
+Updating Subscription Management repositories.
+Last metadata expiration check: 1:41:03 ago on Sun 20 Jul 2025 03:47:13 PM CST.
+Not a valid rpm file path: /root/install_source/ansible-navigator-rpm-9.4/ansible-navigator.log
+Package aardvark-dns-2:1.10.0-3.el9_4.x86_64 is already installed.
+Package alternatives-1.24-1.el9.x86_64 is already installed.
+Package ansible-builder-3.1.0-1.el9ap.noarch is already installed.
+Package ansible-core-1:2.16.14-2.el9ap.noarch is already installed.
+Package ansible-lint-25.5.0-1.el9ap.noarch is already installed.
+Package ansible-navigator-25.5.0-1.el9ap.noarch is already installed.
+Package ansible-runner-2.4.1-1.el9ap.noarch is already installed.
+Package audit-libs-3.1.2-2.el9.x86_64 is already installed.
+Package basesystem-11-13.el9.noarch is already installed.
+Package bash-5.1.8-9.el9.x86_64 is already installed.
+Package bindep-2.11.0-2.el9ap.noarch is already installed.
+Package bzip2-libs-1.0.8-8.el9.x86_64 is already installed.
+Package ca-certificates-2024.2.69_v8.0.303-91.4.el9_4.noarch is already installed.
+Package conmon-2:2.1.10-1.el9.x86_64 is already installed.
+Package containers-common-2:1-91.el9_4.x86_64 is already installed.
+Package coreutils-8.32-35.el9.x86_64 is already installed.
+Package coreutils-common-8.32-35.el9.x86_64 is already installed.
+Package cracklib-2.9.6-27.el9.x86_64 is already installed.
+Package cracklib-dicts-2.9.6-27.el9.x86_64 is already installed.
+Package criu-3.19-1.el9.x86_64 is already installed.
+Package criu-libs-3.19-1.el9.x86_64 is already installed.
+Package crun-1.14.3-1.el9.x86_64 is already installed.
+Package crypto-policies-20240202-1.git283706d.el9.noarch is already installed.
+Package cyrus-sasl-lib-2.1.27-21.el9.x86_64 is already installed.
+Package expat-2.5.0-2.el9_4.1.x86_64 is already installed.
+Package filesystem-3.16-2.el9.x86_64 is already installed.
+Package fuse3-3.10.2-8.el9.x86_64 is already installed.
+Package fuse3-libs-3.10.2-8.el9.x86_64 is already installed.
+Package fuse-common-3.10.2-8.el9.x86_64 is already installed.
+Package fuse-overlayfs-1.13-1.el9.x86_64 is already installed.
+Package gawk-5.1.0-6.el9.x86_64 is already installed.
+Package gawk-all-langpacks-5.1.0-6.el9.x86_64 is already installed.
+Package gdbm-libs-1:1.19-4.el9.x86_64 is already installed.
+Package git-core-2.43.5-1.el9_4.x86_64 is already installed.
+Package glib2-2.68.4-14.el9_4.1.x86_64 is already installed.
+Package glibc-2.34-100.el9_4.4.x86_64 is already installed.
+Package glibc-common-2.34-100.el9_4.4.x86_64 is already installed.
+Package glibc-gconv-extra-2.34-100.el9_4.4.x86_64 is already installed.
+Package glibc-minimal-langpack-2.34-100.el9_4.4.x86_64 is already installed.
+Package gmp-1:6.2.0-13.el9.x86_64 is already installed.
+Package gnupg2-2.3.3-4.el9.x86_64 is already installed.
+Package gnutls-3.8.3-4.el9_4.x86_64 is already installed.
+Package gpgme-1.15.1-6.el9.x86_64 is already installed.
+Package grep-3.6-5.el9.x86_64 is already installed.
+Package gzip-1.12-1.el9.x86_64 is already installed.
+Package iptables-libs-1.8.10-4.el9_4.x86_64 is already installed.
+Package iptables-nft-1.8.10-4.el9_4.x86_64 is already installed.
+Package jansson-2.14-1.el9.x86_64 is already installed.
+Package keyutils-libs-1.6.3-1.el9.x86_64 is already installed.
+Package kmod-28-9.el9.x86_64 is already installed.
+Package krb5-libs-1.21.1-2.el9_4.x86_64 is already installed.
+Package less-590-4.el9_4.x86_64 is already installed.
+Package libacl-2.3.1-4.el9.x86_64 is already installed.
+Package libassuan-2.5.5-3.el9.x86_64 is already installed.
+Package libattr-2.5.1-3.el9.x86_64 is already installed.
+Package libblkid-2.37.4-18.el9.x86_64 is already installed.
+Package libbrotli-1.0.9-6.el9.x86_64 is already installed.
+Package libcap-2.48-9.el9_2.x86_64 is already installed.
+Package libcap-ng-0.8.2-7.el9.x86_64 is already installed.
+Package libcbor-0.7.0-5.el9.x86_64 is already installed.
+Package libcom_err-1.46.5-5.el9.x86_64 is already installed.
+Package libcurl-7.76.1-29.el9_4.1.x86_64 is already installed.
+Package libdb-5.3.28-53.el9.x86_64 is already installed.
+Package libeconf-0.4.1-3.el9_2.x86_64 is already installed.
+Package libedit-3.1-38.20210216cvs.el9.x86_64 is already installed.
+Package libevent-2.1.12-8.el9_4.x86_64 is already installed.
+Package libfdisk-2.37.4-18.el9.x86_64 is already installed.
+Package libffi-3.4.2-8.el9.x86_64 is already installed.
+Package libfido2-1.13.0-2.el9.x86_64 is already installed.
+Package libgcc-11.4.1-3.el9.x86_64 is already installed.
+Package libgcrypt-1.10.0-10.el9_2.x86_64 is already installed.
+Package libgpg-error-1.42-5.el9.x86_64 is already installed.
+Package libidn2-2.3.0-7.el9.x86_64 is already installed.
+Package libksba-1.5.1-6.el9_1.x86_64 is already installed.
+Package libmnl-1.0.4-16.el9_4.x86_64 is already installed.
+Package libmount-2.37.4-18.el9.x86_64 is already installed.
+Package libnet-1.2-6.el9.x86_64 is already installed.
+Package libnetfilter_conntrack-1.0.9-1.el9.x86_64 is already installed.
+Package libnfnetlink-1.0.1-21.el9.x86_64 is already installed.
+Package libnftnl-1.2.6-4.el9_4.x86_64 is already installed.
+Package libnghttp2-1.43.0-5.el9_4.3.x86_64 is already installed.
+Package libnl3-3.9.0-1.el9.x86_64 is already installed.
+Package libnsl2-2.0.0-1.el9.x86_64 is already installed.
+Package libpsl-0.21.1-5.el9.x86_64 is already installed.
+Package libpwquality-1.4.4-8.el9.x86_64 is already installed.
+Package libseccomp-2.5.2-2.el9.x86_64 is already installed.
+Package libselinux-3.6-1.el9.x86_64 is already installed.
+Package libsemanage-3.6-1.el9.x86_64 is already installed.
+Package libsepol-3.6-1.el9.x86_64 is already installed.
+Package libsigsegv-2.13-4.el9.x86_64 is already installed.
+Package libslirp-4.4.0-7.el9.x86_64 is already installed.
+Package libsmartcols-2.37.4-18.el9.x86_64 is already installed.
+Package libssh-0.10.4-13.el9.x86_64 is already installed.
+Package libssh-config-0.10.4-13.el9.noarch is already installed.
+Package libtasn1-4.16.0-8.el9_1.x86_64 is already installed.
+Package libtirpc-1.3.3-8.el9_4.x86_64 is already installed.
+Package libunistring-0.9.10-15.el9.x86_64 is already installed.
+Package libutempter-1.2.1-6.el9.x86_64 is already installed.
+Package libuuid-2.37.4-18.el9.x86_64 is already installed.
+Package libverto-0.3.2-3.el9.x86_64 is already installed.
+Package libxcrypt-4.4.18-3.el9.x86_64 is already installed.
+Package libxcrypt-compat-4.4.18-3.el9.x86_64 is already installed.
+Package libyaml-0.2.5-7.el9.x86_64 is already installed.
+Package libzstd-1.5.1-2.el9.x86_64 is already installed.
+Package lz4-libs-1.9.3-5.el9.x86_64 is already installed.
+Package mpdecimal-2.5.1-3.el9.x86_64 is already installed.
+Package mpfr-4.1.0-7.el9.x86_64 is already installed.
+Package ncurses-base-6.2-10.20210508.el9.noarch is already installed.
+Package ncurses-libs-6.2-10.20210508.el9.x86_64 is already installed.
+Package netavark-2:1.10.3-1.el9.x86_64 is already installed.
+Package nettle-3.9.1-1.el9.x86_64 is already installed.
+Package nftables-1:1.0.9-1.el9.x86_64 is already installed.
+Package npth-1.6-8.el9.x86_64 is already installed.
+Package oniguruma-6.9.6-1.el9.5.x86_64 is already installed.
+Package openldap-2.6.6-3.el9.x86_64 is already installed.
+Package openssh-8.7p1-38.el9_4.4.x86_64 is already installed.
+Package openssh-clients-8.7p1-38.el9_4.4.x86_64 is already installed.
+Package openssl-1:3.0.7-28.el9_4.x86_64 is already installed.
+Package openssl-fips-provider-3.0.7-2.el9.x86_64 is already installed.
+Package openssl-libs-1:3.0.7-28.el9_4.x86_64 is already installed.
+Package p11-kit-0.25.3-2.el9.x86_64 is already installed.
+Package p11-kit-trust-0.25.3-2.el9.x86_64 is already installed.
+Package pam-1.5.1-19.el9.x86_64 is already installed.
+Package pcre2-10.40-5.el9.x86_64 is already installed.
+Package pcre2-syntax-10.40-5.el9.noarch is already installed.
+Package pcre-8.44-3.el9.3.x86_64 is already installed.
+Package podman-4:4.9.4-16.el9_4.x86_64 is already installed.
+Package protobuf-c-1.3.3-13.el9.x86_64 is already installed.
+Package publicsuffix-list-dafsa-20210518-3.el9.noarch is already installed.
+Package python3.11-3.11.7-1.el9_4.6.x86_64 is already installed.
+Package python3.11-ansible-compat-25.5.0-1.el9ap.noarch is already installed.
+Package python3.11-ansible-runner-2.4.1-1.el9ap.noarch is already installed.
+Package python3.11-attrs-22.2.0-1.el9ap.noarch is already installed.
+Package python3.11-black-24.4.2-2.el9ap.noarch is already installed.
+Package python3.11-bracex-2.4-1.el9ap.noarch is already installed.
+Package python3.11-cffi-1.15.1-1.el9.x86_64 is already installed.
+Package python3.11-click-8.1.7-1.el9ap.noarch is already installed.
+Package python3.11-cryptography-42.0.5-1.el9ap.x86_64 is already installed.
+Package python3.11-daemon-2.3.2-1.el9ap.noarch is already installed.
+Package python3.11-distro-1.9.0-1.el9ap.noarch is already installed.
+Package python3.11-docutils-0.20.1-2.el9ap.noarch is already installed.
+Package python3.11-filelock-3.13.1-1.el9ap.noarch is already installed.
+Package python3.11-importlib-metadata-6.0.1-2.el9ap.noarch is already installed.
+Package python3.11-jinja2-3.1.6-1.el9ap.noarch is already installed.
+Package python3.11-jsonschema-4.21.1-1.el9ap.noarch is already installed.
+Package python3.11-jsonschema-specifications-2023.12.1-1.el9ap.noarch is already installed.
+Package python3.11-libs-3.11.7-1.el9_4.6.x86_64 is already installed.
+Package python3.11-lockfile-1:0.12.2-2.el9ap.noarch is already installed.
+Package python3.11-markupsafe-2.1.5-1.el9ap.x86_64 is already installed.
+Package python3.11-mypy-extensions-1.0.0-1.el9ap.noarch is already installed.
+Package python3.11-onigurumacffi-1.3.0-1.el9ap.x86_64 is already installed.
+Package python3.11-packaging-23.2-1.el9ap.noarch is already installed.
+Package python3.11-parsley-1.3-3.el9ap.noarch is already installed.
+Package python3.11-pathspec-0.12.1-1.el9ap.noarch is already installed.
+Package python3.11-pbr-6.0.0-2.el9ap.noarch is already installed.
+Package python3.11-pexpect-4.9.0-1.el9ap.noarch is already installed.
+Package python3.11-pip-wheel-22.3.1-5.el9.noarch is already installed.
+Package python3.11-platformdirs-4.2.0-1.el9ap.noarch is already installed.
+Package python3.11-ply-3.11-1.el9.noarch is already installed.
+Package python3.11-ptyprocess-0.7.0-1.el9ap.noarch is already installed.
+Package python3.11-pycparser-2.20-1.el9.noarch is already installed.
+Package python3.11-pyyaml-6.0-1.el9.x86_64 is already installed.
+Package python3.11-referencing-0.36.2-1.el9ap.noarch is already installed.
+Package python3.11-resolvelib-1.0.1-1.el9ap.noarch is already installed.
+Package python3.11-rpds-py-0.18.1-1.el9ap.x86_64 is already installed.
+Package python3.11-ruamel-yaml-0.18.6-1.el9ap.noarch is already installed.
+Package python3.11-ruamel-yaml-clib-0.2.8-1.el9ap.x86_64 is already installed.
+Package python3.11-setuptools-65.5.1-2.el9_4.1.noarch is already installed.
+Package python3.11-setuptools-wheel-65.5.1-2.el9_4.1.noarch is already installed.
+Package python3.11-subprocess-tee-0.4.1-2.el9ap.noarch is already installed.
+Package python3.11-typing-extensions-4.9.0-1.el9ap.noarch is already installed.
+Package python3.11-wcmatch-8.5-1.el9ap.noarch is already installed.
+Package python3.11-zipp-3.19.2-1.el9ap.noarch is already installed.
+Package readline-8.1-4.el9.x86_64 is already installed.
+Package redhat-release-9.4-0.5.el9.x86_64 is already installed.
+Package redhat-release-eula-9.4-0.5.el9.x86_64 is already installed.
+Package sed-4.8-9.el9.x86_64 is already installed.
+Package setup-2.13.7-10.el9.noarch is already installed.
+Package shadow-utils-2:4.9-8.el9.x86_64 is already installed.
+Package shadow-utils-subid-2:4.9-8.el9.x86_64 is already installed.
+Package slirp4netns-1.2.3-1.el9.x86_64 is already installed.
+Package sqlite-libs-3.34.1-7.el9_3.x86_64 is already installed.
+Package sshpass-1.09-5.el9ap.x86_64 is already installed.
+Package systemd-libs-252-32.el9_4.7.x86_64 is already installed.
+Package tar-2:1.34-6.el9_4.1.x86_64 is already installed.
+Package tzdata-2024b-2.el9.noarch is already installed.
+Package util-linux-2.37.4-18.el9.x86_64 is already installed.
+Package util-linux-core-2.37.4-18.el9.x86_64 is already installed.
+Package xz-libs-5.2.5-8.el9_0.x86_64 is already installed.
+Package yajl-2.1.0-22.el9.x86_64 is already installed.
+Package yamllint-1.35.1-1.el9ap.noarch is already installed.
+Package zlib-1.2.11-40.el9.x86_64 is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+[Sun Jul 20 05:28:18 PM CST 2025] [32mINFO[0m：已存在 SSH 金鑰，跳過產生
+[Sun Jul 20 05:28:18 PM CST 2025] [32mINFO[0m：公鑰已存在於 authorized_keys，跳過
+Getting image source signatures
+Copying blob sha256:c72805f4bee10bb3f9d3d98d21401cbdca395299aa9a7a1b30061d2db9875dc9
+Copying blob sha256:7a6bde932d1aade455f99737d1a40a9d49d1b25e14f0a49c6c4759e70d2a2545
+Copying blob sha256:6ec638148f7eecc7eae6485f3b82fcdc8dd31a8da81b39dfefe789fcac9dde39
+Copying blob sha256:3b7819dab33fd5746b39f86e8230351c49a615836911860b3f4ee852d6ffc945
+Copying blob sha256:887db847fe4165a654744e70a4b74b7a003129c49dfb65280fc040e3e8f10c7f
+Copying blob sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef
+Copying blob sha256:fd1e24c19c11b680f10a44eec4d891ccb5e68699776dfa511770d57f339e0224
+Copying blob sha256:1a6192817d36eca30dd57743076e3c4287a01ce83091ecd1bd5fec82a7c1bcea
+Copying blob sha256:1648b0e36b96ab7d01895d7328a79da4d330b9968b18f46f6daadfdbe7d98755
+Copying blob sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef
+Copying blob sha256:5d9e787ba7be094b4ce495d04ca79106947391542e5f33cdba1682685ed4b348
+Copying blob sha256:bf71a3a5fb428b0026ab29228cf61555bd8423f5bbf737b082457289bc100edb
+Copying blob sha256:600a1bd43eb45f7843a5a850e261ee7ec0a0c9757841178d6c2472bfd33956da
+Copying blob sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef
+Copying blob sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef
+Copying blob sha256:1916be3cb39453e846643ec4e5f2484802dffadfb2a272d3643c2e786bbccfcf
+Copying blob sha256:9203929b2bf9db8d976887fc028a9cc65af4545ff4c549871513582b00e775a7
+Copying blob sha256:be47885c89bc2f02e85df493f2d3ba87dfab616c8cc96b8be9e46f93216dc62d
+Copying blob sha256:1531f517274819db25330133eb148ce57a307c0f86fadb5172f2b29fb9ef79f1
+Copying blob sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef
+Copying blob sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef
+Copying blob sha256:39de53c18ea6085774f9f4b803df05d6f1dae0b0bf4e1b7350b985cac63c720a
+Copying config sha256:d65c90d7c2aae7fd59227e5ca517683c39807c1683a846f2411a98bbb8a70deb
+Writing manifest to image destination
+Loaded image: quay.io/rhtw/ee-bas-auto:v1.0
+[0;34mansible-playbook [core 2.15.13][0m
+[0;34m  config file = /etc/ansible/ansible.cfg[0m
+[0;34m  configured module search path = ['/root/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules'][0m
+[0;34m  ansible python module location = /usr/lib/python3.9/site-packages/ansible[0m
+[0;34m  ansible collection location = /root/.ansible/collections:/usr/share/ansible/collections[0m
+[0;34m  executable location = /usr/bin/ansible-playbook[0m
+[0;34m  python version = 3.9.21 (main, Dec  5 2024, 00:00:00) [GCC 11.5.0 20240719 (Red Hat 11.5.0-2)] (/usr/bin/python3)[0m
+[0;34m  jinja version = 3.1.4[0m
+[0;34m  libyaml = True[0m
+[0;34mUsing /etc/ansible/ansible.cfg as config file[0m
+[0;34mSkipping callback 'awx_display', as we already have a stdout callback.[0m
+[0;34mSkipping callback 'default', as we already have a stdout callback.[0m
+[0;34mSkipping callback 'minimal', as we already have a stdout callback.[0m
+[0;34mSkipping callback 'oneline', as we already have a stdout callback.[0m
+
+PLAYBOOK: install.yml **********************************************************
+[0;34m1 plays in /root/OpenShift-Automation/roles/install.yml[0m
+
+PLAY [all] *********************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[1;30mtask path: /root/OpenShift-Automation/roles/install.yml:1[0m
+[0;32mok: [bastion.ocp4.example.com][0m
+
+TASK [ocp_bastion_installer : Disable firewalld] *******************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/main.yml:4[0m
+[0;36mincluded: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/firewalld.yml for bastion.ocp4.example.com[0m
+
+TASK [ocp_bastion_installer : Disable firewalld] *******************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/firewalld.yml:1[0m
+[0;32mok: [bastion.ocp4.example.com] => {"changed": false, "enabled": false, "name": "firewalld", "state": "stopped", "status": {"AccessSELinuxContext": "system_u:object_r:firewalld_unit_file_t:s0", "ActiveEnterTimestampMonotonic": "0", "ActiveExitTimestampMonotonic": "0", "ActiveState": "inactive", "After": "dbus.socket system.slice polkit.service basic.target dbus-broker.service sysinit.target", "AllowIsolate": "no", "AssertResult": "no", "AssertTimestampMonotonic": "0", "Before": "shutdown.target network-pre.target", "BlockIOAccounting": "no", "BlockIOWeight": "[not set]", "BusName": "org.fedoraproject.FirewallD1", "CPUAccounting": "yes", "CPUAffinityFromNUMA": "no", "CPUQuotaPerSecUSec": "infinity", "CPUQuotaPeriodUSec": "infinity", "CPUSchedulingPolicy": "0", "CPUSchedulingPriority": "0", "CPUSchedulingResetOnFork": "no", "CPUShares": "[not set]", "CPUUsageNSec": "[not set]", "CPUWeight": "[not set]", "CacheDirectoryMode": "0755", "CanFreeze": "yes", "CanIsolate": "no", "CanReload": "yes", "CanStart": "yes", "CanStop": "yes", "CapabilityBoundingSet": "cap_chown cap_dac_override cap_dac_read_search cap_fowner cap_fsetid cap_kill cap_setgid cap_setuid cap_setpcap cap_linux_immutable cap_net_bind_service cap_net_broadcast cap_net_admin cap_net_raw cap_ipc_lock cap_ipc_owner cap_sys_module cap_sys_rawio cap_sys_chroot cap_sys_ptrace cap_sys_pacct cap_sys_admin cap_sys_boot cap_sys_nice cap_sys_resource cap_sys_time cap_sys_tty_config cap_mknod cap_lease cap_audit_write cap_audit_control cap_setfcap cap_mac_override cap_mac_admin cap_syslog cap_wake_alarm cap_block_suspend cap_audit_read cap_perfmon cap_bpf cap_checkpoint_restore", "CleanResult": "success", "CollectMode": "inactive", "ConditionResult": "no", "ConditionTimestampMonotonic": "0", "ConfigurationDirectoryMode": "0755", "Conflicts": "nftables.service shutdown.target ip6tables.service ipset.service ebtables.service iptables.service", "ControlGroupId": "0", "ControlPID": "0", "CoredumpFilter": "0x33", "DefaultDependencies": "yes", "DefaultMemoryLow": "0", "DefaultMemoryMin": "0", "Delegate": "no", "Description": "firewalld - dynamic firewall daemon", "DevicePolicy": "auto", "Documentation": "\"man:firewalld(1)\"", "DynamicUser": "no", "EnvironmentFiles": "/etc/sysconfig/firewalld (ignore_errors=yes)", "ExecMainCode": "0", "ExecMainExitTimestampMonotonic": "0", "ExecMainPID": "0", "ExecMainStartTimestampMonotonic": "0", "ExecMainStatus": "0", "ExecReload": "{ path=/bin/kill ; argv[]=/bin/kill -HUP $MAINPID ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", "ExecReloadEx": "{ path=/bin/kill ; argv[]=/bin/kill -HUP $MAINPID ; flags= ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", "ExecStart": "{ path=/usr/sbin/firewalld ; argv[]=/usr/sbin/firewalld --nofork --nopid $FIREWALLD_ARGS ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", "ExecStartEx": "{ path=/usr/sbin/firewalld ; argv[]=/usr/sbin/firewalld --nofork --nopid $FIREWALLD_ARGS ; flags= ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", "ExitType": "main", "FailureAction": "none", "FileDescriptorStoreMax": "0", "FinalKillSignal": "9", "FragmentPath": "/usr/lib/systemd/system/firewalld.service", "FreezerState": "running", "GID": "[not set]", "GuessMainPID": "yes", "IOAccounting": "no", "IOReadBytes": "18446744073709551615", "IOReadOperations": "18446744073709551615", "IOSchedulingClass": "2", "IOSchedulingPriority": "4", "IOWeight": "[not set]", "IOWriteBytes": "18446744073709551615", "IOWriteOperations": "18446744073709551615", "IPAccounting": "no", "IPEgressBytes": "[no data]", "IPEgressPackets": "[no data]", "IPIngressBytes": "[no data]", "IPIngressPackets": "[no data]", "Id": "firewalld.service", "IgnoreOnIsolate": "no", "IgnoreSIGPIPE": "yes", "InactiveEnterTimestampMonotonic": "0", "InactiveExitTimestampMonotonic": "0", "JobRunningTimeoutUSec": "infinity", "JobTimeoutAction": "none", "JobTimeoutUSec": "infinity", "KeyringMode": "private", "KillMode": "mixed", "KillSignal": "15", "LimitAS": "infinity", "LimitASSoft": "infinity", "LimitCORE": "infinity", "LimitCORESoft": "0", "LimitCPU": "infinity", "LimitCPUSoft": "infinity", "LimitDATA": "infinity", "LimitDATASoft": "infinity", "LimitFSIZE": "infinity", "LimitFSIZESoft": "infinity", "LimitLOCKS": "infinity", "LimitLOCKSSoft": "infinity", "LimitMEMLOCK": "8388608", "LimitMEMLOCKSoft": "8388608", "LimitMSGQUEUE": "819200", "LimitMSGQUEUESoft": "819200", "LimitNICE": "0", "LimitNICESoft": "0", "LimitNOFILE": "524288", "LimitNOFILESoft": "1024", "LimitNPROC": "30572", "LimitNPROCSoft": "30572", "LimitRSS": "infinity", "LimitRSSSoft": "infinity", "LimitRTPRIO": "0", "LimitRTPRIOSoft": "0", "LimitRTTIME": "infinity", "LimitRTTIMESoft": "infinity", "LimitSIGPENDING": "30572", "LimitSIGPENDINGSoft": "30572", "LimitSTACK": "infinity", "LimitSTACKSoft": "8388608", "LoadState": "loaded", "LockPersonality": "no", "LogLevelMax": "-1", "LogRateLimitBurst": "0", "LogRateLimitIntervalUSec": "0", "LogsDirectoryMode": "0755", "MainPID": "0", "ManagedOOMMemoryPressure": "auto", "ManagedOOMMemoryPressureLimit": "0", "ManagedOOMPreference": "none", "ManagedOOMSwap": "auto", "MemoryAccounting": "yes", "MemoryAvailable": "infinity", "MemoryCurrent": "[not set]", "MemoryDenyWriteExecute": "no", "MemoryHigh": "infinity", "MemoryLimit": "infinity", "MemoryLow": "0", "MemoryMax": "infinity", "MemoryMin": "0", "MemorySwapMax": "infinity", "MountAPIVFS": "no", "NFileDescriptorStore": "0", "NRestarts": "0", "NUMAPolicy": "n/a", "Names": "firewalld.service", "NeedDaemonReload": "no", "Nice": "0", "NoNewPrivileges": "no", "NonBlocking": "no", "NotifyAccess": "none", "OOMPolicy": "stop", "OOMScoreAdjust": "0", "OnFailureJobMode": "replace", "OnSuccessJobMode": "fail", "Perpetual": "no", "PrivateDevices": "no", "PrivateIPC": "no", "PrivateMounts": "no", "PrivateNetwork": "no", "PrivateTmp": "no", "PrivateUsers": "no", "ProcSubset": "all", "ProtectClock": "no", "ProtectControlGroups": "no", "ProtectHome": "no", "ProtectHostname": "no", "ProtectKernelLogs": "no", "ProtectKernelModules": "no", "ProtectKernelTunables": "no", "ProtectProc": "default", "ProtectSystem": "no", "RefuseManualStart": "no", "RefuseManualStop": "no", "ReloadResult": "success", "ReloadSignal": "1", "RemainAfterExit": "no", "RemoveIPC": "no", "Requires": "system.slice sysinit.target dbus.socket", "Restart": "no", "RestartKillSignal": "15", "RestartUSec": "100ms", "RestrictNamespaces": "no", "RestrictRealtime": "no", "RestrictSUIDSGID": "no", "Result": "success", "RootDirectoryStartOnly": "no", "RuntimeDirectoryMode": "0755", "RuntimeDirectoryPreserve": "no", "RuntimeMaxUSec": "infinity", "RuntimeRandomizedExtraUSec": "0", "SameProcessGroup": "no", "SecureBits": "0", "SendSIGHUP": "no", "SendSIGKILL": "yes", "Slice": "system.slice", "StandardError": "null", "StandardInput": "null", "StandardOutput": "null", "StartLimitAction": "none", "StartLimitBurst": "5", "StartLimitIntervalUSec": "10s", "StartupBlockIOWeight": "[not set]", "StartupCPUShares": "[not set]", "StartupCPUWeight": "[not set]", "StartupIOWeight": "[not set]", "StateChangeTimestampMonotonic": "0", "StateDirectoryMode": "0755", "StatusErrno": "0", "StopWhenUnneeded": "no", "SubState": "dead", "SuccessAction": "none", "SyslogFacility": "3", "SyslogLevel": "6", "SyslogLevelPrefix": "yes", "SyslogPriority": "30", "SystemCallErrorNumber": "2147483646", "TTYReset": "no", "TTYVHangup": "no", "TTYVTDisallocate": "no", "TasksAccounting": "yes", "TasksCurrent": "[not set]", "TasksMax": "48916", "TimeoutAbortUSec": "1min 30s", "TimeoutCleanUSec": "infinity", "TimeoutStartFailureMode": "terminate", "TimeoutStartUSec": "1min 30s", "TimeoutStopFailureMode": "terminate", "TimeoutStopUSec": "1min 30s", "TimerSlackNSec": "50000", "Transient": "no", "Type": "dbus", "UID": "[not set]", "UMask": "0022", "UnitFilePreset": "enabled", "UnitFileState": "disabled", "UtmpMode": "init", "Wants": "network-pre.target", "WatchdogSignal": "6", "WatchdogTimestampMonotonic": "0", "WatchdogUSec": "infinity"}}[0m
+
+TASK [ocp_bastion_installer : Disable selinux] *********************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/main.yml:8[0m
+[0;36mincluded: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/selinux.yml for bastion.ocp4.example.com[0m
+
+TASK [ocp_bastion_installer : Disable selinux] *********************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/selinux.yml:1[0m
+[0;32mok: [bastion.ocp4.example.com] => {"changed": false, "configfile": "/etc/selinux/config", "msg": "", "policy": "targeted", "reboot_required": false, "state": "permissive"}[0m
+
+TASK [ocp_bastion_installer : Setup DNS] ***************************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/main.yml:12[0m
+[0;36mincluded: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/dns.yml for bastion.ocp4.example.com[0m
+
+TASK [ocp_bastion_installer : Modify DNS configuration] ************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/dns.yml:7[0m
+[0;32mok: [bastion.ocp4.example.com] => {"backup": "", "changed": false, "msg": ""}[0m
+
+TASK [ocp_bastion_installer : Modify DNS configuration] ************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/dns.yml:15[0m
+[0;32mok: [bastion.ocp4.example.com] => {"changed": false, "checksum": "6c8e5f02b7d0d42f16875234ffbfbf171f8b2804", "dest": "/etc/dnsmasq.d/dns.conf", "gid": 0, "group": "root", "mode": "0644", "owner": "root", "path": "/etc/dnsmasq.d/dns.conf", "secontext": "system_u:object_r:dnsmasq_etc_t:s0", "size": 1535, "state": "file", "uid": 0}[0m
+
+TASK [ocp_bastion_installer : Start DNS] ***************************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/dns.yml:22[0m
+[0;32mok: [bastion.ocp4.example.com] => {"changed": false, "enabled": true, "name": "dnsmasq", "state": "started", "status": {"AccessSELinuxContext": "system_u:object_r:dnsmasq_unit_file_t:s0", "ActiveEnterTimestamp": "Sun 2025-07-20 17:18:08 CST", "ActiveEnterTimestampMonotonic": "12081455", "ActiveExitTimestampMonotonic": "0", "ActiveState": "active", "After": "network.target basic.target systemd-journald.socket sysinit.target system.slice", "AllowIsolate": "no", "AssertResult": "yes", "AssertTimestamp": "Sun 2025-07-20 17:18:08 CST", "AssertTimestampMonotonic": "11963171", "Before": "shutdown.target multi-user.target", "BlockIOAccounting": "no", "BlockIOWeight": "[not set]", "CPUAccounting": "yes", "CPUAffinityFromNUMA": "no", "CPUQuotaPerSecUSec": "infinity", "CPUQuotaPeriodUSec": "infinity", "CPUSchedulingPolicy": "0", "CPUSchedulingPriority": "0", "CPUSchedulingResetOnFork": "no", "CPUShares": "[not set]", "CPUUsageNSec": "8861000", "CPUWeight": "[not set]", "CacheDirectoryMode": "0755", "CanFreeze": "yes", "CanIsolate": "no", "CanReload": "no", "CanStart": "yes", "CanStop": "yes", "CapabilityBoundingSet": "cap_chown cap_dac_override cap_dac_read_search cap_fowner cap_fsetid cap_kill cap_setgid cap_setuid cap_setpcap cap_linux_immutable cap_net_bind_service cap_net_broadcast cap_net_admin cap_net_raw cap_ipc_lock cap_ipc_owner cap_sys_module cap_sys_rawio cap_sys_chroot cap_sys_ptrace cap_sys_pacct cap_sys_admin cap_sys_boot cap_sys_nice cap_sys_resource cap_sys_time cap_sys_tty_config cap_mknod cap_lease cap_audit_write cap_audit_control cap_setfcap cap_mac_override cap_mac_admin cap_syslog cap_wake_alarm cap_block_suspend cap_audit_read cap_perfmon cap_bpf cap_checkpoint_restore", "CleanResult": "success", "CollectMode": "inactive", "ConditionResult": "yes", "ConditionTimestamp": "Sun 2025-07-20 17:18:08 CST", "ConditionTimestampMonotonic": "11963169", "ConfigurationDirectoryMode": "0755", "Conflicts": "shutdown.target", "ControlGroup": "/system.slice/dnsmasq.service", "ControlGroupId": "3474", "ControlPID": "0", "CoredumpFilter": "0x33", "DefaultDependencies": "yes", "DefaultMemoryLow": "0", "DefaultMemoryMin": "0", "Delegate": "no", "Description": "DNS caching server.", "DevicePolicy": "auto", "DynamicUser": "no", "ExecMainCode": "0", "ExecMainExitTimestampMonotonic": "0", "ExecMainPID": "983", "ExecMainStartTimestamp": "Sun 2025-07-20 17:18:08 CST", "ExecMainStartTimestampMonotonic": "12081433", "ExecMainStatus": "0", "ExecStart": "{ path=/usr/sbin/dnsmasq ; argv[]=/usr/sbin/dnsmasq ; ignore_errors=no ; start_time=[Sun 2025-07-20 17:18:08 CST] ; stop_time=[Sun 2025-07-20 17:18:08 CST] ; pid=964 ; code=exited ; status=0 }", "ExecStartEx": "{ path=/usr/sbin/dnsmasq ; argv[]=/usr/sbin/dnsmasq ; flags= ; start_time=[Sun 2025-07-20 17:18:08 CST] ; stop_time=[Sun 2025-07-20 17:18:08 CST] ; pid=964 ; code=exited ; status=0 }", "ExitType": "main", "FailureAction": "none", "FileDescriptorStoreMax": "0", "FinalKillSignal": "9", "FragmentPath": "/usr/lib/systemd/system/dnsmasq.service", "FreezerState": "running", "GID": "[not set]", "GuessMainPID": "yes", "IOAccounting": "no", "IOReadBytes": "18446744073709551615", "IOReadOperations": "18446744073709551615", "IOSchedulingClass": "2", "IOSchedulingPriority": "4", "IOWeight": "[not set]", "IOWriteBytes": "18446744073709551615", "IOWriteOperations": "18446744073709551615", "IPAccounting": "no", "IPEgressBytes": "[no data]", "IPEgressPackets": "[no data]", "IPIngressBytes": "[no data]", "IPIngressPackets": "[no data]", "Id": "dnsmasq.service", "IgnoreOnIsolate": "no", "IgnoreSIGPIPE": "yes", "InactiveEnterTimestampMonotonic": "0", "InactiveExitTimestamp": "Sun 2025-07-20 17:18:08 CST", "InactiveExitTimestampMonotonic": "11965632", "InvocationID": "d96952c754954987b666fa9fb573c492", "JobRunningTimeoutUSec": "infinity", "JobTimeoutAction": "none", "JobTimeoutUSec": "infinity", "KeyringMode": "private", "KillMode": "control-group", "KillSignal": "15", "LimitAS": "infinity", "LimitASSoft": "infinity", "LimitCORE": "infinity", "LimitCORESoft": "0", "LimitCPU": "infinity", "LimitCPUSoft": "infinity", "LimitDATA": "infinity", "LimitDATASoft": "infinity", "LimitFSIZE": "infinity", "LimitFSIZESoft": "infinity", "LimitLOCKS": "infinity", "LimitLOCKSSoft": "infinity", "LimitMEMLOCK": "8388608", "LimitMEMLOCKSoft": "8388608", "LimitMSGQUEUE": "819200", "LimitMSGQUEUESoft": "819200", "LimitNICE": "0", "LimitNICESoft": "0", "LimitNOFILE": "524288", "LimitNOFILESoft": "1024", "LimitNPROC": "30572", "LimitNPROCSoft": "30572", "LimitRSS": "infinity", "LimitRSSSoft": "infinity", "LimitRTPRIO": "0", "LimitRTPRIOSoft": "0", "LimitRTTIME": "infinity", "LimitRTTIMESoft": "infinity", "LimitSIGPENDING": "30572", "LimitSIGPENDINGSoft": "30572", "LimitSTACK": "infinity", "LimitSTACKSoft": "8388608", "LoadState": "loaded", "LockPersonality": "no", "LogLevelMax": "-1", "LogRateLimitBurst": "0", "LogRateLimitIntervalUSec": "0", "LogsDirectoryMode": "0755", "MainPID": "983", "ManagedOOMMemoryPressure": "auto", "ManagedOOMMemoryPressureLimit": "0", "ManagedOOMPreference": "none", "ManagedOOMSwap": "auto", "MemoryAccounting": "yes", "MemoryAvailable": "infinity", "MemoryCurrent": "1368064", "MemoryDenyWriteExecute": "no", "MemoryHigh": "infinity", "MemoryLimit": "infinity", "MemoryLow": "0", "MemoryMax": "infinity", "MemoryMin": "0", "MemorySwapMax": "infinity", "MountAPIVFS": "no", "NFileDescriptorStore": "0", "NRestarts": "0", "NUMAPolicy": "n/a", "Names": "dnsmasq.service", "NeedDaemonReload": "no", "Nice": "0", "NoNewPrivileges": "no", "NonBlocking": "no", "NotifyAccess": "none", "OOMPolicy": "stop", "OOMScoreAdjust": "0", "OnFailureJobMode": "replace", "OnSuccessJobMode": "fail", "PIDFile": "/run/dnsmasq.pid", "Perpetual": "no", "PrivateDevices": "no", "PrivateIPC": "no", "PrivateMounts": "no", "PrivateNetwork": "no", "PrivateTmp": "no", "PrivateUsers": "no", "ProcSubset": "all", "ProtectClock": "no", "ProtectControlGroups": "no", "ProtectHome": "no", "ProtectHostname": "no", "ProtectKernelLogs": "no", "ProtectKernelModules": "no", "ProtectKernelTunables": "no", "ProtectProc": "default", "ProtectSystem": "no", "RefuseManualStart": "no", "RefuseManualStop": "no", "ReloadResult": "success", "ReloadSignal": "1", "RemainAfterExit": "no", "RemoveIPC": "no", "Requires": "sysinit.target system.slice", "Restart": "no", "RestartKillSignal": "15", "RestartUSec": "100ms", "RestrictNamespaces": "no", "RestrictRealtime": "no", "RestrictSUIDSGID": "no", "Result": "success", "RootDirectoryStartOnly": "no", "RuntimeDirectoryMode": "0755", "RuntimeDirectoryPreserve": "no", "RuntimeMaxUSec": "infinity", "RuntimeRandomizedExtraUSec": "0", "SameProcessGroup": "no", "SecureBits": "0", "SendSIGHUP": "no", "SendSIGKILL": "yes", "Slice": "system.slice", "StandardError": "inherit", "StandardInput": "null", "StandardOutput": "journal", "StartLimitAction": "none", "StartLimitBurst": "5", "StartLimitIntervalUSec": "10s", "StartupBlockIOWeight": "[not set]", "StartupCPUShares": "[not set]", "StartupCPUWeight": "[not set]", "StartupIOWeight": "[not set]", "StateChangeTimestamp": "Sun 2025-07-20 17:18:08 CST", "StateChangeTimestampMonotonic": "12081455", "StateDirectoryMode": "0755", "StatusErrno": "0", "StopWhenUnneeded": "no", "SubState": "running", "SuccessAction": "none", "SyslogFacility": "3", "SyslogLevel": "6", "SyslogLevelPrefix": "yes", "SyslogPriority": "30", "SystemCallErrorNumber": "2147483646", "TTYReset": "no", "TTYVHangup": "no", "TTYVTDisallocate": "no", "TasksAccounting": "yes", "TasksCurrent": "1", "TasksMax": "48916", "TimeoutAbortUSec": "1min 30s", "TimeoutCleanUSec": "infinity", "TimeoutStartFailureMode": "terminate", "TimeoutStartUSec": "1min 30s", "TimeoutStopFailureMode": "terminate", "TimeoutStopUSec": "1min 30s", "TimerSlackNSec": "50000", "Transient": "no", "Type": "forking", "UID": "[not set]", "UMask": "0022", "UnitFilePreset": "disabled", "UnitFileState": "enabled", "UtmpMode": "init", "WantedBy": "multi-user.target", "WatchdogSignal": "6", "WatchdogTimestampMonotonic": "0", "WatchdogUSec": "0"}}[0m
+
+TASK [ocp_bastion_installer : Manage DNS in NetworkManager] ********************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/dns.yml:28[0m
+[0;34mNotification for handler restart NetworkManager has been saved.[0m
+[0;33mchanged: [bastion.ocp4.example.com] => {"changed": true, "cmd": ["nmcli", "connection", "modify", "ens192", "ipv4.dns", "172.31.233.1"], "delta": "0:00:00.174748", "end": "2025-07-20 17:28:48.965439", "msg": "", "rc": 0, "start": "2025-07-20 17:28:48.790691", "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}[0m
+
+TASK [ocp_bastion_installer : Force DNS service restart for DNS check tasks] ***
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/dns.yml:36[0m
+[0;34mNOTIFIED HANDLER ocp_bastion_installer : restart NetworkManager for bastion.ocp4.example.com[0m
+[0;34mMETA: triggered running handlers for bastion.ocp4.example.com[0m
+
+RUNNING HANDLER [ocp_bastion_installer : restart NetworkManager] ***************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/handlers/main.yml:9[0m
+[0;33mchanged: [bastion.ocp4.example.com] => {"changed": true, "name": "NetworkManager", "state": "started", "status": {"AccessSELinuxContext": "system_u:object_r:NetworkManager_unit_file_t:s0", "ActiveEnterTimestamp": "Sun 2025-07-20 17:19:48 CST", "ActiveEnterTimestampMonotonic": "112510788", "ActiveExitTimestamp": "Sun 2025-07-20 17:19:48 CST", "ActiveExitTimestampMonotonic": "112241513", "ActiveState": "active", "After": "network-pre.target systemd-journald.socket sysinit.target basic.target system.slice dbus-broker.service dbus.socket", "AllowIsolate": "no", "AssertResult": "yes", "AssertTimestamp": "Sun 2025-07-20 17:19:48 CST", "AssertTimestampMonotonic": "112361924", "Before": "network.target shutdown.target network.service multi-user.target NetworkManager-wait-online.service", "BindsTo": "dbus-broker.service", "BlockIOAccounting": "no", "BlockIOWeight": "[not set]", "BusName": "org.freedesktop.NetworkManager", "CPUAccounting": "yes", "CPUAffinityFromNUMA": "no", "CPUQuotaPerSecUSec": "infinity", "CPUQuotaPeriodUSec": "infinity", "CPUSchedulingPolicy": "0", "CPUSchedulingPriority": "0", "CPUSchedulingResetOnFork": "no", "CPUShares": "[not set]", "CPUUsageNSec": "163645000", "CPUWeight": "[not set]", "CacheDirectoryMode": "0755", "CanFreeze": "yes", "CanIsolate": "no", "CanReload": "yes", "CanStart": "yes", "CanStop": "yes", "CapabilityBoundingSet": "cap_dac_override cap_kill cap_setgid cap_setuid cap_net_bind_service cap_net_admin cap_net_raw cap_sys_module cap_sys_chroot cap_audit_write", "CleanResult": "success", "CollectMode": "inactive", "ConditionResult": "yes", "ConditionTimestamp": "Sun 2025-07-20 17:19:48 CST", "ConditionTimestampMonotonic": "112361921", "ConfigurationDirectoryMode": "0755", "Conflicts": "shutdown.target", "ControlGroup": "/system.slice/NetworkManager.service", "ControlGroupId": "6513", "ControlPID": "0", "CoredumpFilter": "0x33", "DefaultDependencies": "yes", "DefaultMemoryLow": "0", "DefaultMemoryMin": "0", "Delegate": "no", "Description": "Network Manager", "DevicePolicy": "auto", "Documentation": "\"man:NetworkManager(8)\"", "DynamicUser": "no", "ExecMainCode": "0", "ExecMainExitTimestampMonotonic": "0", "ExecMainPID": "3591", "ExecMainStartTimestamp": "Sun 2025-07-20 17:19:48 CST", "ExecMainStartTimestampMonotonic": "112365730", "ExecMainStatus": "0", "ExecReload": "{ path=/usr/bin/busctl ; argv[]=/usr/bin/busctl call org.freedesktop.NetworkManager /org/freedesktop/NetworkManager org.freedesktop.NetworkManager Reload u 0 ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", "ExecReloadEx": "{ path=/usr/bin/busctl ; argv[]=/usr/bin/busctl call org.freedesktop.NetworkManager /org/freedesktop/NetworkManager org.freedesktop.NetworkManager Reload u 0 ; flags= ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", "ExecStart": "{ path=/usr/sbin/NetworkManager ; argv[]=/usr/sbin/NetworkManager --no-daemon ; ignore_errors=no ; start_time=[Sun 2025-07-20 17:19:48 CST] ; stop_time=[n/a] ; pid=3591 ; code=(null) ; status=0/0 }", "ExecStartEx": "{ path=/usr/sbin/NetworkManager ; argv[]=/usr/sbin/NetworkManager --no-daemon ; flags= ; start_time=[Sun 2025-07-20 17:19:48 CST] ; stop_time=[n/a] ; pid=3591 ; code=(null) ; status=0/0 }", "ExitType": "main", "FailureAction": "none", "FileDescriptorStoreMax": "0", "FinalKillSignal": "9", "FragmentPath": "/usr/lib/systemd/system/NetworkManager.service", "FreezerState": "running", "GID": "[not set]", "GuessMainPID": "yes", "IOAccounting": "no", "IOReadBytes": "18446744073709551615", "IOReadOperations": "18446744073709551615", "IOSchedulingClass": "2", "IOSchedulingPriority": "4", "IOWeight": "[not set]", "IOWriteBytes": "18446744073709551615", "IOWriteOperations": "18446744073709551615", "IPAccounting": "no", "IPEgressBytes": "[no data]", "IPEgressPackets": "[no data]", "IPIngressBytes": "[no data]", "IPIngressPackets": "[no data]", "Id": "NetworkManager.service", "IgnoreOnIsolate": "no", "IgnoreSIGPIPE": "yes", "InactiveEnterTimestamp": "Sun 2025-07-20 17:19:48 CST", "InactiveEnterTimestampMonotonic": "112361109", "InactiveExitTimestamp": "Sun 2025-07-20 17:19:48 CST", "InactiveExitTimestampMonotonic": "112365986", "InvocationID": "4e24cd73a49945fbafc7fb8dd5d92e69", "JobRunningTimeoutUSec": "infinity", "JobTimeoutAction": "none", "JobTimeoutUSec": "infinity", "KeyringMode": "private", "KillMode": "process", "KillSignal": "15", "LimitAS": "infinity", "LimitASSoft": "infinity", "LimitCORE": "infinity", "LimitCORESoft": "0", "LimitCPU": "infinity", "LimitCPUSoft": "infinity", "LimitDATA": "infinity", "LimitDATASoft": "infinity", "LimitFSIZE": "infinity", "LimitFSIZESoft": "infinity", "LimitLOCKS": "infinity", "LimitLOCKSSoft": "infinity", "LimitMEMLOCK": "8388608", "LimitMEMLOCKSoft": "8388608", "LimitMSGQUEUE": "819200", "LimitMSGQUEUESoft": "819200", "LimitNICE": "0", "LimitNICESoft": "0", "LimitNOFILE": "65536", "LimitNOFILESoft": "65536", "LimitNPROC": "30572", "LimitNPROCSoft": "30572", "LimitRSS": "infinity", "LimitRSSSoft": "infinity", "LimitRTPRIO": "0", "LimitRTPRIOSoft": "0", "LimitRTTIME": "infinity", "LimitRTTIMESoft": "infinity", "LimitSIGPENDING": "30572", "LimitSIGPENDINGSoft": "30572", "LimitSTACK": "infinity", "LimitSTACKSoft": "8388608", "LoadState": "loaded", "LockPersonality": "no", "LogLevelMax": "-1", "LogRateLimitBurst": "0", "LogRateLimitIntervalUSec": "0", "LogsDirectoryMode": "0755", "MainPID": "3591", "ManagedOOMMemoryPressure": "auto", "ManagedOOMMemoryPressureLimit": "0", "ManagedOOMPreference": "none", "ManagedOOMSwap": "auto", "MemoryAccounting": "yes", "MemoryAvailable": "infinity", "MemoryCurrent": "7835648", "MemoryDenyWriteExecute": "no", "MemoryHigh": "infinity", "MemoryLimit": "infinity", "MemoryLow": "0", "MemoryMax": "infinity", "MemoryMin": "0", "MemorySwapMax": "infinity", "MountAPIVFS": "no", "NFileDescriptorStore": "0", "NRestarts": "0", "NUMAPolicy": "n/a", "Names": "NetworkManager.service", "NeedDaemonReload": "no", "Nice": "0", "NoNewPrivileges": "no", "NonBlocking": "no", "NotifyAccess": "none", "OOMPolicy": "stop", "OOMScoreAdjust": "0", "OnFailureJobMode": "replace", "OnSuccessJobMode": "fail", "Perpetual": "no", "PrivateDevices": "no", "PrivateIPC": "no", "PrivateMounts": "no", "PrivateNetwork": "no", "PrivateTmp": "no", "PrivateUsers": "no", "ProcSubset": "all", "ProtectClock": "no", "ProtectControlGroups": "no", "ProtectHome": "read-only", "ProtectHostname": "no", "ProtectKernelLogs": "no", "ProtectKernelModules": "no", "ProtectKernelTunables": "no", "ProtectProc": "default", "ProtectSystem": "yes", "RefuseManualStart": "no", "RefuseManualStop": "no", "ReloadResult": "success", "ReloadSignal": "1", "RemainAfterExit": "no", "RemoveIPC": "no", "RequiredBy": "NetworkManager-wait-online.service", "Requires": "dbus.socket system.slice sysinit.target", "Restart": "on-failure", "RestartKillSignal": "15", "RestartUSec": "100ms", "RestrictNamespaces": "no", "RestrictRealtime": "no", "RestrictSUIDSGID": "no", "Result": "success", "RootDirectoryStartOnly": "no", "RuntimeDirectoryMode": "0755", "RuntimeDirectoryPreserve": "no", "RuntimeMaxUSec": "infinity", "RuntimeRandomizedExtraUSec": "0", "SameProcessGroup": "no", "SecureBits": "0", "SendSIGHUP": "no", "SendSIGKILL": "yes", "Slice": "system.slice", "StandardError": "inherit", "StandardInput": "null", "StandardOutput": "journal", "StartLimitAction": "none", "StartLimitBurst": "5", "StartLimitIntervalUSec": "10s", "StartupBlockIOWeight": "[not set]", "StartupCPUShares": "[not set]", "StartupCPUWeight": "[not set]", "StartupIOWeight": "[not set]", "StateChangeTimestamp": "Sun 2025-07-20 17:19:48 CST", "StateChangeTimestampMonotonic": "112510788", "StateDirectoryMode": "0755", "StatusErrno": "0", "StopWhenUnneeded": "no", "SubState": "running", "SuccessAction": "none", "SyslogFacility": "3", "SyslogLevel": "6", "SyslogLevelPrefix": "yes", "SyslogPriority": "30", "SystemCallErrorNumber": "2147483646", "TTYReset": "no", "TTYVHangup": "no", "TTYVTDisallocate": "no", "TasksAccounting": "yes", "TasksCurrent": "3", "TasksMax": "48916", "TimeoutAbortUSec": "1min 30s", "TimeoutCleanUSec": "infinity", "TimeoutStartFailureMode": "terminate", "TimeoutStartUSec": "10min", "TimeoutStopFailureMode": "terminate", "TimeoutStopUSec": "1min 30s", "TimerSlackNSec": "50000", "Transient": "no", "Type": "dbus", "UID": "[not set]", "UMask": "0022", "UnitFilePreset": "enabled", "UnitFileState": "enabled", "UtmpMode": "init", "WantedBy": "multi-user.target", "Wants": "network.target", "WatchdogSignal": "6", "WatchdogTimestampMonotonic": "0", "WatchdogUSec": "0"}}[0m
+
+TASK [ocp_bastion_installer : Check DNS records] *******************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/main.yml:16[0m
+[0;36mincluded: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/dnscheck.yml for bastion.ocp4.example.com[0m
+
+TASK [ocp_bastion_installer : Check bastion record] ****************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/dnscheck.yml:1[0m
+[0;32mok: [bastion.ocp4.example.com -> 127.0.0.1] => {[0m
+[0;32m    "msg": "172.31.222.138"[0m
+[0;32m}[0m
+
+TASK [ocp_bastion_installer : Check bootstrap record] **************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/dnscheck.yml:6[0m
+[0;32mok: [bastion.ocp4.example.com -> 127.0.0.1] => {[0m
+[0;32m    "msg": "172.31.222.101"[0m
+[0;32m}[0m
+
+TASK [ocp_bastion_installer : Check master record] *****************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/dnscheck.yml:11[0m
+[0;32mok: [bastion.ocp4.example.com -> 127.0.0.1] => (item={'name': 'master1', 'ip': '172.31.222.103'}) => {[0m
+[0;32m    "msg": "172.31.222.103"[0m
+[0;32m}[0m
+[0;32mok: [bastion.ocp4.example.com -> 127.0.0.1] => (item={'name': 'master2', 'ip': '172.31.222.104'}) => {[0m
+[0;32m    "msg": "172.31.222.104"[0m
+[0;32m}[0m
+[0;32mok: [bastion.ocp4.example.com -> 127.0.0.1] => (item={'name': 'master3', 'ip': '172.31.222.105'}) => {[0m
+[0;32m    "msg": "172.31.222.105"[0m
+[0;32m}[0m
+
+TASK [ocp_bastion_installer : Check infra record] ******************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/dnscheck.yml:17[0m
+[0;32mok: [bastion.ocp4.example.com -> 127.0.0.1] => (item={'name': 'infraworker01', 'ip': '172.31.222.176'}) => {[0m
+[0;32m    "msg": "172.31.222.176"[0m
+[0;32m}[0m
+[0;32mok: [bastion.ocp4.example.com -> 127.0.0.1] => (item={'name': 'infraworker02', 'ip': '172.31.222.177'}) => {[0m
+[0;32m    "msg": "172.31.222.177"[0m
+[0;32m}[0m
+[0;32mok: [bastion.ocp4.example.com -> 127.0.0.1] => (item={'name': 'infraworker03', 'ip': '172.31.222.178'}) => {[0m
+[0;32m    "msg": "172.31.222.178"[0m
+[0;32m}[0m
+
+TASK [ocp_bastion_installer : Check worker record] *****************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/dnscheck.yml:24[0m
+[0;32mok: [bastion.ocp4.example.com -> 127.0.0.1] => (item={'name': 'vmworker01', 'ip': '172.31.222.144'}) => {[0m
+[0;32m    "msg": "172.31.222.144"[0m
+[0;32m}[0m
+[0;32mok: [bastion.ocp4.example.com -> 127.0.0.1] => (item={'name': 'vmworker02', 'ip': '172.31.222.146'}) => {[0m
+[0;32m    "msg": "172.31.222.146"[0m
+[0;32m}[0m
+
+TASK [ocp_bastion_installer : Print all records] *******************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/dnscheck.yml:31[0m
+[0;32mok: [bastion.ocp4.example.com -> 127.0.0.1] => {[0m
+[0;32m    "msg": [[0m
+[0;32m        "Bastion: 172.31.222.138",[0m
+[0;32m        "Bootstrap: 172.31.222.101",[0m
+[0;32m        "Master: ['172.31.222.103', '172.31.222.104', '172.31.222.105']",[0m
+[0;32m        "Infra: ['172.31.222.176', '172.31.222.177', '172.31.222.178']",[0m
+[0;32m        "Worker: ['172.31.222.144', '172.31.222.146']"[0m
+[0;32m    ][0m
+[0;32m}[0m
+
+TASK [ocp_bastion_installer : Fail if bastion record incorrect] ****************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/dnscheck.yml:41[0m
+[0;36mskipping: [bastion.ocp4.example.com] => {"changed": false, "false_condition": "bastion.ip != bastion_records.msg", "skip_reason": "Conditional result was False"}[0m
+
+TASK [ocp_bastion_installer : Fail if bootstrap record incorrect] **************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/dnscheck.yml:46[0m
+[0;36mskipping: [bastion.ocp4.example.com] => {"changed": false, "false_condition": "bootstrap.ip != bootstrap_records.msg", "skip_reason": "Conditional result was False"}[0m
+
+TASK [ocp_bastion_installer : Fail if master record incorrect] *****************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/dnscheck.yml:51[0m
+[0;36mskipping: [bastion.ocp4.example.com] => (item={'msg': '172.31.222.103', 'failed': False, 'changed': False, 'item': {'name': 'master1', 'ip': '172.31.222.103'}, 'ansible_loop_var': 'item'})  => {"ansible_loop_var": "item", "changed": false, "false_condition": "item.item.ip != item.msg", "item": {"ansible_loop_var": "item", "changed": false, "failed": false, "item": {"ip": "172.31.222.103", "name": "master1"}, "msg": "172.31.222.103"}, "skip_reason": "Conditional result was False"}[0m
+[0;36mskipping: [bastion.ocp4.example.com] => (item={'msg': '172.31.222.104', 'failed': False, 'changed': False, 'item': {'name': 'master2', 'ip': '172.31.222.104'}, 'ansible_loop_var': 'item'})  => {"ansible_loop_var": "item", "changed": false, "false_condition": "item.item.ip != item.msg", "item": {"ansible_loop_var": "item", "changed": false, "failed": false, "item": {"ip": "172.31.222.104", "name": "master2"}, "msg": "172.31.222.104"}, "skip_reason": "Conditional result was False"}[0m
+[0;36mskipping: [bastion.ocp4.example.com] => (item={'msg': '172.31.222.105', 'failed': False, 'changed': False, 'item': {'name': 'master3', 'ip': '172.31.222.105'}, 'ansible_loop_var': 'item'})  => {"ansible_loop_var": "item", "changed": false, "false_condition": "item.item.ip != item.msg", "item": {"ansible_loop_var": "item", "changed": false, "failed": false, "item": {"ip": "172.31.222.105", "name": "master3"}, "msg": "172.31.222.105"}, "skip_reason": "Conditional result was False"}[0m
+[0;36mskipping: [bastion.ocp4.example.com] => {"changed": false, "msg": "All items skipped"}[0m
+
+TASK [ocp_bastion_installer : Fail if infra record incorrect] ******************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/dnscheck.yml:57[0m
+[0;36mskipping: [bastion.ocp4.example.com] => (item={'msg': '172.31.222.176', 'failed': False, 'changed': False, 'item': {'name': 'infraworker01', 'ip': '172.31.222.176'}, 'ansible_loop_var': 'item'})  => {"ansible_loop_var": "item", "changed": false, "false_condition": "mode != 'compact' and item.item.ip != item.msg", "item": {"ansible_loop_var": "item", "changed": false, "failed": false, "item": {"ip": "172.31.222.176", "name": "infraworker01"}, "msg": "172.31.222.176"}, "skip_reason": "Conditional result was False"}[0m
+[0;36mskipping: [bastion.ocp4.example.com] => (item={'msg': '172.31.222.177', 'failed': False, 'changed': False, 'item': {'name': 'infraworker02', 'ip': '172.31.222.177'}, 'ansible_loop_var': 'item'})  => {"ansible_loop_var": "item", "changed": false, "false_condition": "mode != 'compact' and item.item.ip != item.msg", "item": {"ansible_loop_var": "item", "changed": false, "failed": false, "item": {"ip": "172.31.222.177", "name": "infraworker02"}, "msg": "172.31.222.177"}, "skip_reason": "Conditional result was False"}[0m
+[0;36mskipping: [bastion.ocp4.example.com] => (item={'msg': '172.31.222.178', 'failed': False, 'changed': False, 'item': {'name': 'infraworker03', 'ip': '172.31.222.178'}, 'ansible_loop_var': 'item'})  => {"ansible_loop_var": "item", "changed": false, "false_condition": "mode != 'compact' and item.item.ip != item.msg", "item": {"ansible_loop_var": "item", "changed": false, "failed": false, "item": {"ip": "172.31.222.178", "name": "infraworker03"}, "msg": "172.31.222.178"}, "skip_reason": "Conditional result was False"}[0m
+[0;36mskipping: [bastion.ocp4.example.com] => {"changed": false, "msg": "All items skipped"}[0m
+
+TASK [ocp_bastion_installer : Fail if worker record incorrect] *****************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/dnscheck.yml:63[0m
+[0;36mskipping: [bastion.ocp4.example.com] => (item={'msg': '172.31.222.144', 'failed': False, 'changed': False, 'item': {'name': 'vmworker01', 'ip': '172.31.222.144'}, 'ansible_loop_var': 'item'})  => {"ansible_loop_var": "item", "changed": false, "false_condition": "mode != 'compact' and item.item.ip != item.msg", "item": {"ansible_loop_var": "item", "changed": false, "failed": false, "item": {"ip": "172.31.222.144", "name": "vmworker01"}, "msg": "172.31.222.144"}, "skip_reason": "Conditional result was False"}[0m
+[0;36mskipping: [bastion.ocp4.example.com] => (item={'msg': '172.31.222.146', 'failed': False, 'changed': False, 'item': {'name': 'vmworker02', 'ip': '172.31.222.146'}, 'ansible_loop_var': 'item'})  => {"ansible_loop_var": "item", "changed": false, "false_condition": "mode != 'compact' and item.item.ip != item.msg", "item": {"ansible_loop_var": "item", "changed": false, "failed": false, "item": {"ip": "172.31.222.146", "name": "vmworker02"}, "msg": "172.31.222.146"}, "skip_reason": "Conditional result was False"}[0m
+[0;36mskipping: [bastion.ocp4.example.com] => {"changed": false, "msg": "All items skipped"}[0m
+
+TASK [ocp_bastion_installer : Setup loadbalancer] ******************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/main.yml:23[0m
+[0;36mincluded: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/haproxy.yml for bastion.ocp4.example.com[0m
+
+TASK [ocp_bastion_installer : Modify haproxy configuration] ********************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/haproxy.yml:7[0m
+[0;32mok: [bastion.ocp4.example.com] => {"changed": false, "checksum": "22c949010699c301c8fe1fcc2a520c446e9cf602", "dest": "/etc/haproxy/haproxy.cfg", "gid": 0, "group": "root", "mode": "0644", "owner": "root", "path": "/etc/haproxy/haproxy.cfg", "secontext": "system_u:object_r:etc_t:s0", "size": 1828, "state": "file", "uid": 0}[0m
+
+TASK [ocp_bastion_installer : Force haproxy service restart for haproxy check tasks] ***
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/haproxy.yml:13[0m
+[0;34mMETA: triggered running handlers for bastion.ocp4.example.com[0m
+
+TASK [ocp_bastion_installer : Setup NTP Server] ********************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/main.yml:29[0m
+[0;36mincluded: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/ntp-server.yml for bastion.ocp4.example.com[0m
+
+TASK [ocp_bastion_installer : Backup chrony.conf] ******************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/ntp-server.yml:2[0m
+[0;32mok: [bastion.ocp4.example.com] => {"changed": false, "checksum": "e115addbc240971b624204f5fc0a5bd59a3f9607", "dest": "/etc/chrony.conf.bk", "gid": 0, "group": "root", "md5sum": "930de43a7c717ec4e0999b710b30a4a2", "mode": "0644", "owner": "root", "secontext": "system_u:object_r:etc_t:s0", "size": 1491, "src": "/etc/chrony.conf", "state": "file", "uid": 0}[0m
+
+TASK [ocp_bastion_installer : Modify chronyd configuration] ********************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/ntp-server.yml:8[0m
+[0;32mok: [bastion.ocp4.example.com] => {"changed": false, "checksum": "e115addbc240971b624204f5fc0a5bd59a3f9607", "dest": "/etc/chrony.conf", "gid": 0, "group": "root", "mode": "0644", "owner": "root", "path": "/etc/chrony.conf", "secontext": "system_u:object_r:etc_t:s0", "size": 1491, "state": "file", "uid": 0}[0m
+
+TASK [ocp_bastion_installer : Start chronyd] ***********************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/ntp-server.yml:13[0m
+[0;33mchanged: [bastion.ocp4.example.com] => {"changed": true, "enabled": true, "name": "chronyd", "state": "started", "status": {"AccessSELinuxContext": "system_u:object_r:chronyd_unit_file_t:s0", "ActiveEnterTimestamp": "Sun 2025-07-20 17:19:54 CST", "ActiveEnterTimestampMonotonic": "118830636", "ActiveExitTimestamp": "Sun 2025-07-20 17:19:54 CST", "ActiveExitTimestampMonotonic": "118744116", "ActiveState": "active", "After": "tmp.mount -.mount sntp.service basic.target systemd-tmpfiles-setup.service sysinit.target systemd-journald.socket ntpd.service system.slice ntpdate.service", "AllowIsolate": "no", "AssertResult": "yes", "AssertTimestamp": "Sun 2025-07-20 17:19:54 CST", "AssertTimestampMonotonic": "118746667", "Before": "shutdown.target multi-user.target", "BlockIOAccounting": "no", "BlockIOWeight": "[not set]", "CPUAccounting": "yes", "CPUAffinityFromNUMA": "no", "CPUQuotaPerSecUSec": "infinity", "CPUQuotaPeriodUSec": "infinity", "CPUSchedulingPolicy": "0", "CPUSchedulingPriority": "0", "CPUSchedulingResetOnFork": "no", "CPUShares": "[not set]", "CPUUsageNSec": "55546000", "CPUWeight": "[not set]", "CacheDirectoryMode": "0755", "CanFreeze": "yes", "CanIsolate": "no", "CanReload": "no", "CanStart": "yes", "CanStop": "yes", "CapabilityBoundingSet": "cap_chown cap_dac_override cap_dac_read_search cap_fowner cap_fsetid cap_setgid cap_setuid cap_setpcap cap_net_bind_service cap_net_broadcast cap_net_admin cap_net_raw cap_ipc_lock cap_ipc_owner cap_sys_nice cap_sys_resource cap_sys_time cap_setfcap cap_perfmon cap_bpf cap_checkpoint_restore", "CleanResult": "success", "CollectMode": "inactive", "ConditionResult": "yes", "ConditionTimestamp": "Sun 2025-07-20 17:19:54 CST", "ConditionTimestampMonotonic": "118746576", "ConfigurationDirectoryMode": "0755", "Conflicts": "shutdown.target systemd-timesyncd.service ntpd.service", "ControlGroup": "/system.slice/chronyd.service", "ControlGroupId": "6648", "ControlPID": "0", "CoredumpFilter": "0x33", "DefaultDependencies": "yes", "DefaultMemoryLow": "0", "DefaultMemoryMin": "0", "Delegate": "no", "Description": "NTP client/server", "DeviceAllow": "char-pps rw", "DevicePolicy": "closed", "Documentation": "\"man:chronyd(8)\" \"man:chrony.conf(5)\"", "DynamicUser": "no", "EnvironmentFiles": "/etc/sysconfig/chronyd (ignore_errors=yes)", "ExecMainCode": "0", "ExecMainExitTimestampMonotonic": "0", "ExecMainPID": "4378", "ExecMainStartTimestamp": "Sun 2025-07-20 17:19:54 CST", "ExecMainStartTimestampMonotonic": "118830611", "ExecMainStatus": "0", "ExecStart": "{ path=/usr/sbin/chronyd ; argv[]=/usr/sbin/chronyd $OPTIONS ; ignore_errors=no ; start_time=[Sun 2025-07-20 17:19:54 CST] ; stop_time=[Sun 2025-07-20 17:19:54 CST] ; pid=4376 ; code=exited ; status=0 }", "ExecStartEx": "{ path=/usr/sbin/chronyd ; argv[]=/usr/sbin/chronyd $OPTIONS ; flags= ; start_time=[Sun 2025-07-20 17:19:54 CST] ; stop_time=[Sun 2025-07-20 17:19:54 CST] ; pid=4376 ; code=exited ; status=0 }", "ExitType": "main", "FailureAction": "none", "FileDescriptorStoreMax": "0", "FinalKillSignal": "9", "FragmentPath": "/usr/lib/systemd/system/chronyd.service", "FreezerState": "running", "GID": "[not set]", "GuessMainPID": "yes", "IOAccounting": "no", "IOReadBytes": "18446744073709551615", "IOReadOperations": "18446744073709551615", "IOSchedulingClass": "2", "IOSchedulingPriority": "4", "IOWeight": "[not set]", "IOWriteBytes": "18446744073709551615", "IOWriteOperations": "18446744073709551615", "IPAccounting": "no", "IPEgressBytes": "[no data]", "IPEgressPackets": "[no data]", "IPIngressBytes": "[no data]", "IPIngressPackets": "[no data]", "Id": "chronyd.service", "IgnoreOnIsolate": "no", "IgnoreSIGPIPE": "yes", "InactiveEnterTimestamp": "Sun 2025-07-20 17:19:54 CST", "InactiveEnterTimestampMonotonic": "118746095", "InactiveExitTimestamp": "Sun 2025-07-20 17:19:54 CST", "InactiveExitTimestampMonotonic": "118755824", "InvocationID": "348fe1390eeb4511a8c08822878642d6", "JobRunningTimeoutUSec": "infinity", "JobTimeoutAction": "none", "JobTimeoutUSec": "infinity", "KeyringMode": "private", "KillMode": "control-group", "KillSignal": "15", "LimitAS": "infinity", "LimitASSoft": "infinity", "LimitCORE": "infinity", "LimitCORESoft": "0", "LimitCPU": "infinity", "LimitCPUSoft": "infinity", "LimitDATA": "infinity", "LimitDATASoft": "infinity", "LimitFSIZE": "infinity", "LimitFSIZESoft": "infinity", "LimitLOCKS": "infinity", "LimitLOCKSSoft": "infinity", "LimitMEMLOCK": "8388608", "LimitMEMLOCKSoft": "8388608", "LimitMSGQUEUE": "819200", "LimitMSGQUEUESoft": "819200", "LimitNICE": "0", "LimitNICESoft": "0", "LimitNOFILE": "524288", "LimitNOFILESoft": "1024", "LimitNPROC": "30572", "LimitNPROCSoft": "30572", "LimitRSS": "infinity", "LimitRSSSoft": "infinity", "LimitRTPRIO": "0", "LimitRTPRIOSoft": "0", "LimitRTTIME": "infinity", "LimitRTTIMESoft": "infinity", "LimitSIGPENDING": "30572", "LimitSIGPENDINGSoft": "30572", "LimitSTACK": "infinity", "LimitSTACKSoft": "8388608", "LoadState": "loaded", "LockPersonality": "yes", "LogLevelMax": "-1", "LogRateLimitBurst": "0", "LogRateLimitIntervalUSec": "0", "LogsDirectoryMode": "0755", "MainPID": "4378", "ManagedOOMMemoryPressure": "auto", "ManagedOOMMemoryPressureLimit": "0", "ManagedOOMPreference": "none", "ManagedOOMSwap": "auto", "MemoryAccounting": "yes", "MemoryAvailable": "infinity", "MemoryCurrent": "946176", "MemoryDenyWriteExecute": "yes", "MemoryHigh": "infinity", "MemoryLimit": "infinity", "MemoryLow": "0", "MemoryMax": "infinity", "MemoryMin": "0", "MemorySwapMax": "infinity", "MountAPIVFS": "no", "NFileDescriptorStore": "0", "NRestarts": "0", "NUMAPolicy": "n/a", "Names": "chronyd.service", "NeedDaemonReload": "no", "Nice": "0", "NoNewPrivileges": "no", "NonBlocking": "no", "NotifyAccess": "none", "OOMPolicy": "stop", "OOMScoreAdjust": "0", "OnFailureJobMode": "replace", "OnSuccessJobMode": "fail", "PIDFile": "/run/chrony/chronyd.pid", "Perpetual": "no", "PrivateDevices": "no", "PrivateIPC": "no", "PrivateMounts": "no", "PrivateNetwork": "no", "PrivateTmp": "yes", "PrivateUsers": "no", "ProcSubset": "all", "ProtectClock": "no", "ProtectControlGroups": "yes", "ProtectHome": "yes", "ProtectHostname": "yes", "ProtectKernelLogs": "yes", "ProtectKernelModules": "yes", "ProtectKernelTunables": "yes", "ProtectProc": "invisible", "ProtectSystem": "full", "RefuseManualStart": "no", "RefuseManualStop": "no", "ReloadResult": "success", "ReloadSignal": "1", "RemainAfterExit": "no", "RemoveIPC": "no", "Requires": "sysinit.target -.mount system.slice", "RequiresMountsFor": "/var/tmp", "Restart": "no", "RestartKillSignal": "15", "RestartUSec": "100ms", "RestrictAddressFamilies": "AF_INET AF_INET6 AF_NETLINK AF_UNIX", "RestrictNamespaces": "yes", "RestrictRealtime": "no", "RestrictSUIDSGID": "yes", "Result": "success", "RootDirectoryStartOnly": "no", "RuntimeDirectoryMode": "0755", "RuntimeDirectoryPreserve": "no", "RuntimeMaxUSec": "infinity", "RuntimeRandomizedExtraUSec": "0", "SameProcessGroup": "no", "SecureBits": "0", "SendSIGHUP": "no", "SendSIGKILL": "yes", "Slice": "system.slice", "StandardError": "inherit", "StandardInput": "null", "StandardOutput": "journal", "StartLimitAction": "none", "StartLimitBurst": "5", "StartLimitIntervalUSec": "10s", "StartupBlockIOWeight": "[not set]", "StartupCPUShares": "[not set]", "StartupCPUWeight": "[not set]", "StartupIOWeight": "[not set]", "StateChangeTimestamp": "Sun 2025-07-20 17:19:54 CST", "StateChangeTimestampMonotonic": "118830636", "StateDirectoryMode": "0755", "StatusErrno": "0", "StopWhenUnneeded": "no", "SubState": "running", "SuccessAction": "none", "SyslogFacility": "3", "SyslogLevel": "6", "SyslogLevelPrefix": "yes", "SyslogPriority": "30", "SystemCallArchitectures": "native", "SystemCallErrorNumber": "2147483646", "SystemCallFilter": "~_sysctl afs_syscall bdflush break chroot create_module delete_module finit_module fsconfig fsmount fsopen fspick ftime get_kernel_syms getpmsg gtty idle init_module ioperm iopl kexec_file_load kexec_load lock lookup_dcookie modify_ldt mount mount_setattr move_mount mpx open_tree pciconfig_iobase pciconfig_read pciconfig_write perf_event_open pidfd_getfd pivot_root prof profil ptrace putpmsg query_module reboot rtas s390_pci_mmio_read s390_pci_mmio_write s390_runtime_instr security sgetmask ssetmask stime stty subpage_prot swapoff swapon switch_endian sysfs tuxcall ulimit umount umount2 uselib ustat vm86 vm86old vserver", "TTYReset": "no", "TTYVHangup": "no", "TTYVTDisallocate": "no", "TasksAccounting": "yes", "TasksCurrent": "1", "TasksMax": "48916", "TimeoutAbortUSec": "1min 30s", "TimeoutCleanUSec": "infinity", "TimeoutStartFailureMode": "terminate", "TimeoutStartUSec": "1min 30s", "TimeoutStopFailureMode": "terminate", "TimeoutStopUSec": "1min 30s", "TimerSlackNSec": "50000", "Transient": "no", "Type": "forking", "UID": "[not set]", "UMask": "0022", "UnitFilePreset": "enabled", "UnitFileState": "enabled", "UtmpMode": "init", "WantedBy": "multi-user.target", "WatchdogSignal": "6", "WatchdogTimestampMonotonic": "0", "WatchdogUSec": "0"}}[0m
+
+TASK [ocp_bastion_installer : Setup mirror registry] ***************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/main.yml:33[0m
+[0;36mincluded: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/mirror-registry.yml for bastion.ocp4.example.com[0m
+
+TASK [ocp_bastion_installer : Check mirror registry installed or not] **********
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/mirror-registry.yml:7[0m
+[0;32mok: [bastion.ocp4.example.com] => {"changed": false, "elapsed": 0, "match_groupdict": {}, "match_groups": [], "path": null, "port": 8443, "search_regex": null, "state": "started"}[0m
+
+TASK [ocp_bastion_installer : Print message] ***********************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/mirror-registry.yml:15[0m
+[0;32mok: [bastion.ocp4.example.com] => {[0m
+[0;32m    "msg": "Mirror Registry already installed or port is already used by other service"[0m
+[0;32m}[0m
+
+TASK [ocp_bastion_installer : Initiating mental GC cycle (10-minute break protocol)] ***
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/mirror-registry.yml:20[0m
+[0;36mskipping: [bastion.ocp4.example.com] => {"false_condition": "result.failed"}[0m
+
+TASK [ocp_bastion_installer : Unarchive mirror registry] ***********************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/mirror-registry.yml:25[0m
+[0;36mskipping: [bastion.ocp4.example.com] => {"changed": false, "false_condition": "result.failed", "skip_reason": "Conditional result was False"}[0m
+
+TASK [ocp_bastion_installer : Install mirror registry] *************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/mirror-registry.yml:33[0m
+[0;36mskipping: [bastion.ocp4.example.com] => {"changed": false, "false_condition": "result.failed", "skip_reason": "Conditional result was False"}[0m
+
+TASK [ocp_bastion_installer : Trust mirror registry CA] ************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/mirror-registry.yml:38[0m
+[0;36mskipping: [bastion.ocp4.example.com] => (item=cp /mirror-registry/quay-rootCA/rootCA.pem /etc/pki/ca-trust/source/anchors/)  => {"ansible_loop_var": "item", "changed": false, "false_condition": "result.failed", "item": "cp /mirror-registry/quay-rootCA/rootCA.pem /etc/pki/ca-trust/source/anchors/", "skip_reason": "Conditional result was False"}[0m
+[0;36mskipping: [bastion.ocp4.example.com] => (item=update-ca-trust)  => {"ansible_loop_var": "item", "changed": false, "false_condition": "result.failed", "item": "update-ca-trust", "skip_reason": "Conditional result was False"}[0m
+[0;36mskipping: [bastion.ocp4.example.com] => {"changed": false, "msg": "All items skipped"}[0m
+
+TASK [ocp_bastion_installer : Install Packages] ********************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/main.yml:37[0m
+[0;36mincluded: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/packages.yml for bastion.ocp4.example.com[0m
+
+TASK [ocp_bastion_installer : Modify httpd configuration] **********************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/packages.yml:16[0m
+[0;32mok: [bastion.ocp4.example.com] => {"backup": "", "changed": false, "msg": ""}[0m
+
+TASK [ocp_bastion_installer : Force httpd service restart for httpd check tasks] ***
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/packages.yml:24[0m
+[0;34mMETA: triggered running handlers for bastion.ocp4.example.com[0m
+
+TASK [ocp_bastion_installer : Install clis] ************************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/main.yml:40[0m
+[0;36mincluded: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/setup-cli.yml for bastion.ocp4.example.com[0m
+
+TASK [ocp_bastion_installer : Check ocp install cli exists] ********************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/setup-cli.yml:2[0m
+[0;32mok: [bastion.ocp4.example.com] => {"changed": false, "stat": {"atime": 1752987484.633318, "attr_flags": "", "attributes": [], "block_size": 4096, "blocks": 1561728, "charset": "binary", "checksum": "d831b81270ae1190318b7d133fc9f54120fce31f", "ctime": 1752800826.1694064, "dev": 64768, "device_type": 0, "executable": true, "exists": true, "gid": 0, "gr_name": "root", "inode": 202824068, "isblk": false, "ischr": false, "isdir": false, "isfifo": false, "isgid": false, "islnk": false, "isreg": true, "issock": false, "isuid": false, "mimetype": "application/x-executable", "mode": "0755", "mtime": 1743643574.0, "nlink": 1, "path": "/usr/bin/openshift-install", "pw_name": "root", "readable": true, "rgrp": true, "roth": true, "rusr": true, "size": 799601832, "uid": 0, "version": "640970600", "wgrp": false, "woth": false, "writeable": true, "wusr": true, "xgrp": true, "xoth": true, "xusr": true}}[0m
+
+TASK [ocp_bastion_installer : Extract ocp install cli] *************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/setup-cli.yml:7[0m
+[0;36mskipping: [bastion.ocp4.example.com] => {"changed": false, "false_condition": "install_cli.stat.exists == False", "skip_reason": "Conditional result was False"}[0m
+
+TASK [ocp_bastion_installer : Copy file to openshift-install] ******************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/setup-cli.yml:19[0m
+[0;36mskipping: [bastion.ocp4.example.com] => {"changed": false, "false_condition": "install_cli.stat.exists == False and unarchive_install_cli.files != 'openshift-install'", "skip_reason": "Conditional result was False"}[0m
+
+TASK [ocp_bastion_installer : Remove file] *************************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/setup-cli.yml:25[0m
+[0;36mskipping: [bastion.ocp4.example.com] => {"changed": false, "false_condition": "install_cli.stat.exists == False and unarchive_install_cli.files != 'openshift-install'", "skip_reason": "Conditional result was False"}[0m
+
+TASK [ocp_bastion_installer : Check ocp client cli exists] *********************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/setup-cli.yml:30[0m
+[0;32mok: [bastion.ocp4.example.com] => {"changed": false, "stat": {"atime": 1752987492.2773178, "attr_flags": "", "attributes": [], "block_size": 4096, "blocks": 361432, "charset": "binary", "checksum": "979e6ec8295b44009a601581c7f4c67bd79ba17c", "ctime": 1752800837.1724062, "dev": 64768, "device_type": 0, "executable": true, "exists": true, "gid": 0, "gr_name": "root", "inode": 202824069, "isblk": false, "ischr": false, "isdir": false, "isfifo": false, "isgid": false, "islnk": false, "isreg": true, "issock": false, "isuid": false, "mimetype": "application/x-executable", "mode": "0755", "mtime": 1743643098.0, "nlink": 2, "path": "/usr/bin/oc", "pw_name": "root", "readable": true, "rgrp": true, "roth": true, "rusr": true, "size": 185050456, "uid": 0, "version": "2003838201", "wgrp": false, "woth": false, "writeable": true, "wusr": true, "xgrp": true, "xoth": true, "xusr": true}}[0m
+
+TASK [ocp_bastion_installer : Extract ocp client cli] **************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/setup-cli.yml:35[0m
+[0;36mskipping: [bastion.ocp4.example.com] => {"changed": false, "false_condition": "client_cli.stat.exists == False", "skip_reason": "Conditional result was False"}[0m
+
+TASK [ocp_bastion_installer : Bash completion for oc command] ******************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/setup-cli.yml:42[0m
+[0;33mchanged: [bastion.ocp4.example.com] => {"changed": true, "cmd": "oc completion bash > /etc/bash_completion.d/oc_bash_completion", "delta": "0:00:00.207695", "end": "2025-07-20 17:29:06.817772", "msg": "", "rc": 0, "start": "2025-07-20 17:29:06.610077", "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}[0m
+
+TASK [ocp_bastion_installer : Copy butane to /usr/bin] *************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/setup-cli.yml:45[0m
+[0;33mchanged: [bastion.ocp4.example.com] => {"changed": true, "checksum": "b899fc18117d2d1316f4679f3f82ee6fa27d7259", "dest": "/usr/bin/butane", "gid": 0, "group": "root", "md5sum": "0f97edad8271ef4205c3c67996402bd5", "mode": "0644", "owner": "root", "secontext": "system_u:object_r:bin_t:s0", "size": 9029840, "src": "/root/install_source/butane-amd64", "state": "file", "uid": 0}[0m
+
+TASK [ocp_bastion_installer : change butane permission] ************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/setup-cli.yml:52[0m
+[0;33mchanged: [bastion.ocp4.example.com] => {"changed": true, "gid": 0, "group": "root", "mode": "0755", "owner": "root", "path": "/usr/bin/butane", "secontext": "system_u:object_r:bin_t:s0", "size": 9029840, "state": "file", "uid": 0}[0m
+
+TASK [ocp_bastion_installer : Setup OCP files] *********************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/main.yml:43[0m
+[0;36mincluded: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/ocp.yml for bastion.ocp4.example.com[0m
+
+TASK [ocp_bastion_installer : Check install dir exists] ************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/ocp.yml:3[0m
+[0;32mok: [bastion.ocp4.example.com] => {"changed": false, "stat": {"atime": 1753003229.9508367, "attr_flags": "", "attributes": [], "block_size": 4096, "blocks": 0, "charset": "binary", "ctime": 1753003226.8648367, "dev": 64768, "device_type": 0, "executable": true, "exists": true, "gid": 0, "gr_name": "root", "inode": 402810661, "isblk": false, "ischr": false, "isdir": true, "isfifo": false, "isgid": false, "islnk": false, "isreg": false, "issock": false, "isuid": false, "mimetype": "inode/directory", "mode": "0755", "mtime": 1753003226.8648367, "nlink": 3, "path": "/root/ocp4", "pw_name": "root", "readable": true, "rgrp": true, "roth": true, "rusr": true, "size": 163, "uid": 0, "version": "1357893903", "wgrp": false, "woth": false, "writeable": true, "wusr": true, "xgrp": true, "xoth": true, "xusr": true}}[0m
+
+TASK [ocp_bastion_installer : Remove old install dir] **************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/ocp.yml:8[0m
+[0;33mchanged: [bastion.ocp4.example.com] => {"changed": true, "path": "/root/ocp4", "state": "absent"}[0m
+
+TASK [ocp_bastion_installer : Create install dir] ******************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/ocp.yml:14[0m
+[0;33mchanged: [bastion.ocp4.example.com] => {"changed": true, "gid": 0, "group": "root", "mode": "0755", "owner": "root", "path": "/root/ocp4", "secontext": "unconfined_u:object_r:admin_home_t:s0", "size": 6, "state": "directory", "uid": 0}[0m
+
+TASK [ocp_bastion_installer : Get pull secret value] ***************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/ocp.yml:20[0m
+[0;36mskipping: [bastion.ocp4.example.com] => {"changed": false, "false_condition": "online", "skip_reason": "Conditional result was False"}[0m
+
+TASK [ocp_bastion_installer : Get ssh key value] *******************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/ocp.yml:25[0m
+[0;33mchanged: [bastion.ocp4.example.com] => {"changed": true, "cmd": ["cat", "/root/.ssh/id_rsa.pub"], "delta": "0:00:00.003202", "end": "2025-07-20 17:29:10.282705", "msg": "", "rc": 0, "start": "2025-07-20 17:29:10.279503", "stderr": "", "stderr_lines": [], "stdout": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCi8ePSh1rDIYqKpbX6O/2i8XHy5wE7MxFIpoBqn7vaST04LmcyiEd7ynk/Rrp1kLPU8n69sLtbdPfcOhqEoDYHBE/c0Qbiu9pyZUdQ5Ju00extzHgCDgpBd1DGTEFbrM/4YgJainq4UK1o2NY3OeIRaBzOWrnNHSTlp7Ofr/c86SjvphSiD3F6xfkHiAnQ0o+BBQtksaugAVjctjeVihPKyfwju9pPuD4e5A4xDl6j6AolEWSRTTJEgnsZMIRdKLvslEaIQ/9ZoXM+ah5SECYjYgb//WT4sqaFpEadJVSiqG0yYJzC5YeHrdOGIxrwqQmdxStcaYcR/BOfTdE6makbLtOQPRfTndpCX+doyo80k+fbRR2OLkW4kgk0MOW2d7Q4kRGH33EzMZUuHJMEQX7tMF5U/mlngUn8iFvRio/fl5LLBuQpFom/emjRudBheANKz+7wMYrYVhsSEpxrnyjmRPLQHeMhusLDhuHTp7oFZkhV2fhfHTJWvtWnKfMIp8c= root@bastion", "stdout_lines": ["ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCi8ePSh1rDIYqKpbX6O/2i8XHy5wE7MxFIpoBqn7vaST04LmcyiEd7ynk/Rrp1kLPU8n69sLtbdPfcOhqEoDYHBE/c0Qbiu9pyZUdQ5Ju00extzHgCDgpBd1DGTEFbrM/4YgJainq4UK1o2NY3OeIRaBzOWrnNHSTlp7Ofr/c86SjvphSiD3F6xfkHiAnQ0o+BBQtksaugAVjctjeVihPKyfwju9pPuD4e5A4xDl6j6AolEWSRTTJEgnsZMIRdKLvslEaIQ/9ZoXM+ah5SECYjYgb//WT4sqaFpEadJVSiqG0yYJzC5YeHrdOGIxrwqQmdxStcaYcR/BOfTdE6makbLtOQPRfTndpCX+doyo80k+fbRR2OLkW4kgk0MOW2d7Q4kRGH33EzMZUuHJMEQX7tMF5U/mlngUn8iFvRio/fl5LLBuQpFom/emjRudBheANKz+7wMYrYVhsSEpxrnyjmRPLQHeMhusLDhuHTp7oFZkhV2fhfHTJWvtWnKfMIp8c= root@bastion"]}[0m
+
+TASK [ocp_bastion_installer : Get CA value] ************************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/ocp.yml:29[0m
+[0;32mok: [bastion.ocp4.example.com] => {"changed": false, "content": "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUQ3akNDQXRhZ0F3SUJBZ0lVVmdNZGpqeFhKQ3FNVkFqR282Y1d1TldmTVg0d0RRWUpLb1pJaHZjTkFRRUwKQlFBd2NqRUxNQWtHQTFVRUJoTUNWVk14Q3pBSkJnTlZCQWdNQWxaQk1SRXdEd1lEVlFRSERBaE9aWGNnV1c5eQphekVOTUFzR0ExVUVDZ3dFVVhWaGVURVJNQThHQTFVRUN3d0lSR2wyYVhOcGIyNHhJVEFmQmdOVkJBTU1HR0poCmMzUnBiMjR1YjJOd05DNWxlR0Z0Y0d4bExtTnZiVEFlRncweU5UQTNNVGt4TkRVNU1EaGFGdzB5T0RBMU1EZ3gKTkRVNU1EaGFNSEl4Q3pBSkJnTlZCQVlUQWxWVE1Rc3dDUVlEVlFRSURBSldRVEVSTUE4R0ExVUVCd3dJVG1WMwpJRmx2Y21zeERUQUxCZ05WQkFvTUJGRjFZWGt4RVRBUEJnTlZCQXNNQ0VScGRtbHphVzl1TVNFd0h3WURWUVFECkRCaGlZWE4wYVc5dUxtOWpjRFF1WlhoaGJYQnNaUzVqYjIwd2dnRWlNQTBHQ1NxR1NJYjNEUUVCQVFVQUE0SUIKRHdBd2dnRUtBb0lCQVFDWGh3cTJBeHM3RGRZWVpMOVVEOWVPdkp6b3NpalVybTVCZUNha29VWHlFMkVBU0xGbApNblljaGVRNUtoRDNuaEN3YlE2VDUxWGlkS2VuSFRoUFZCSC9nYjM1a0s0RGFzdDNhRzFDWWtvQ21XRCt4RkxYCjRlcjgxa1BRWm9pcFpqUkJMZXpCUEtzMTFVSVg1Z1p4eDB3SGRxT045czRhbWpXNno2S0RxOHAvSmRnQVYxekMKT04rOFY0aXpqVG5zOG9QL2h2aURmbmdMNUEwdmEwSWUvb2ZXSlhUTzhFT3pIRVdDMUwvYStiZ0VReHkvQS9UcwpYYzlHSW4zelNyR0tPMWpNSTBnalIwOTEyS3F0Ujk2MjNWZGhueDBwNkpKSDh6Z2RuT0g2QzU4c3hIbkcvMWNMCkJ3dVpJQWxJWUkwbHB5M0tsYzJMbCt3TExtUFFxbVpJVHZRNUFnTUJBQUdqZkRCNk1Bc0dBMVVkRHdRRUF3SUMKNURBVEJnTlZIU1VFRERBS0JnZ3JCZ0VGQlFjREFUQWpCZ05WSFJFRUhEQWFnaGhpWVhOMGFXOXVMbTlqY0RRdQpaWGhoYlhCc1pTNWpiMjB3RWdZRFZSMFRBUUgvQkFnd0JnRUIvd0lCQVRBZEJnTlZIUTRFRmdRVVl0RFRyUW96CmVVQmR5QlM3aHJsbC9JenZEem93RFFZSktvWklodmNOQVFFTEJRQURnZ0VCQUlSR0ZPYmovcmxTWHlVWFU3N1YKUXBWUDYzQVVNSlJ2YnZVQVRSSGpoNTZYSjBnME4wRDg3NmVZaWFDaVI0VU5NNXZvbHRGV2xTdFF5RDBwbGp2cgpQRXlWcytoRkozbWRWUklPdFFpVDBGWjBSdXpVOGsxanN0U2JKbzE1T1JSb0VhT1ZaQ2dCREpTOVNtQy8xdWpsCis0UlIrdHE4cjhSYTR2Q3I0eXhVbGRFekQ5blJQcUVhbGpBTS95eHZnWWZpc3Zud2lsT0hEQ1NvZ2g5YVV6bXQKdVZ1MThZTU9rdkFoNzRDYWdITzU3QW5laGVIREVWOXVFUjdjdkJwanhPS25wMHY2YXlVNm1jenVZZ2RjcnRMUApFS25QMEdSQzl3T0prR1BpV0R3M0JYQ2hUL3BGTVZJRFVwZmp1OStKTDB3Vk9EZGI4RlJUenlpNmhucjhpcnNoCm5zRT0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=", "encoding": "base64", "source": "/mirror-registry/quay-rootCA/rootCA.pem"}[0m
+
+TASK [ocp_bastion_installer : Create install config] ***************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/ocp.yml:35[0m
+[0;33mchanged: [bastion.ocp4.example.com] => {"changed": true, "checksum": "b2d537a28199908d9a2c3971af97a8deca39fd65", "dest": "/root/ocp4/install-config.yaml", "gid": 0, "group": "root", "md5sum": "8ba864568f3c447a2d94c19923564908", "mode": "0644", "owner": "root", "secontext": "system_u:object_r:admin_home_t:s0", "size": 2807, "src": "/root/.ansible/tmp/ansible-tmp-1753003750.9943004-309-245961340850130/source", "state": "file", "uid": 0}[0m
+
+TASK [ocp_bastion_installer : Copy install dir] ********************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/ocp.yml:40[0m
+[0;32mok: [bastion.ocp4.example.com] => {"changed": false, "checksum": null, "dest": "/root/ocp4-backup/", "gid": 0, "group": "root", "md5sum": null, "mode": "0755", "owner": "root", "secontext": "unconfined_u:object_r:admin_home_t:s0", "size": 91, "src": "/root/ocp4/", "state": "directory", "uid": 0}[0m
+
+TASK [ocp_bastion_installer : Generate manifests] ******************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/ocp.yml:47[0m
+[0;33mchanged: [bastion.ocp4.example.com] => {"changed": true, "cmd": ["openshift-install", "create", "manifests", "--dir=/root/ocp4"], "delta": "0:00:01.180170", "end": "2025-07-20 17:29:13.983589", "msg": "", "rc": 0, "start": "2025-07-20 17:29:12.803419", "stderr": "level=info msg=Consuming Install Config from target directory\nlevel=warning msg=Making control-plane schedulable by setting MastersSchedulable to true for Scheduler cluster settings\nlevel=info msg=Manifests created in: /root/ocp4/manifests and /root/ocp4/openshift", "stderr_lines": ["level=info msg=Consuming Install Config from target directory", "level=warning msg=Making control-plane schedulable by setting MastersSchedulable to true for Scheduler cluster settings", "level=info msg=Manifests created in: /root/ocp4/manifests and /root/ocp4/openshift"], "stdout": "", "stdout_lines": []}[0m
+
+TASK [ocp_bastion_installer : Create master Butane config] *********************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/ocp.yml:53[0m
+[0;32mok: [bastion.ocp4.example.com] => {"changed": false, "checksum": "c1e92f584cd88af6549c793382907aa553225e57", "dest": "/root/ocp4-backup/99-master-chrony.yaml", "gid": 0, "group": "root", "mode": "0644", "owner": "root", "path": "/root/ocp4-backup/99-master-chrony.yaml", "secontext": "system_u:object_r:admin_home_t:s0", "size": 392, "state": "file", "uid": 0}[0m
+
+TASK [ocp_bastion_installer : Generate master MachineConfig object file] *******
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/ocp.yml:57[0m
+[0;33mchanged: [bastion.ocp4.example.com] => {"changed": true, "cmd": ["butane", "/root/ocp4-backup/99-master-chrony.yaml", "-o", "/root/ocp4/openshift/99-master-chrony.yaml"], "delta": "0:00:00.008666", "end": "2025-07-20 17:29:15.551071", "msg": "", "rc": 0, "start": "2025-07-20 17:29:15.542405", "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}[0m
+
+TASK [ocp_bastion_installer : Create worker Butane config] *********************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/ocp.yml:63[0m
+[0;32mok: [bastion.ocp4.example.com] => {"changed": false, "checksum": "d2366bbeb9e1ec0b17ce68f29bdc9baf81c44ee5", "dest": "/root/ocp4-backup/99-worker-chrony.yaml", "gid": 0, "group": "root", "mode": "0644", "owner": "root", "path": "/root/ocp4-backup/99-worker-chrony.yaml", "secontext": "system_u:object_r:admin_home_t:s0", "size": 392, "state": "file", "uid": 0}[0m
+
+TASK [ocp_bastion_installer : Generate worker MachineConfig object file] *******
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/ocp.yml:67[0m
+[0;33mchanged: [bastion.ocp4.example.com] => {"changed": true, "cmd": ["butane", "/root/ocp4-backup/99-worker-chrony.yaml", "-o", "/root/ocp4/openshift/99-worker-chrony.yaml"], "delta": "0:00:00.014621", "end": "2025-07-20 17:29:16.870040", "msg": "", "rc": 0, "start": "2025-07-20 17:29:16.855419", "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}[0m
+
+TASK [ocp_bastion_installer : Modify scheduler config] *************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/ocp.yml:70[0m
+[0;33mchanged: [bastion.ocp4.example.com] => {"backup": "", "changed": true, "msg": "line replaced"}[0m
+
+TASK [ocp_bastion_installer : Generate ignition files] *************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/ocp.yml:77[0m
+[0;33mchanged: [bastion.ocp4.example.com] => {"changed": true, "cmd": ["openshift-install", "create", "ignition-configs", "--dir=/root/ocp4"], "delta": "0:00:04.587721", "end": "2025-07-20 17:29:22.436693", "msg": "", "rc": 0, "start": "2025-07-20 17:29:17.848972", "stderr": "level=info msg=Consuming OpenShift Install (Manifests) from target directory\nlevel=info msg=Consuming Openshift Manifests from target directory\nlevel=info msg=Consuming Master Machines from target directory\nlevel=info msg=Consuming Worker Machines from target directory\nlevel=info msg=Consuming Common Manifests from target directory\nlevel=info msg=Ignition-Configs created in: /root/ocp4 and /root/ocp4/auth", "stderr_lines": ["level=info msg=Consuming OpenShift Install (Manifests) from target directory", "level=info msg=Consuming Openshift Manifests from target directory", "level=info msg=Consuming Master Machines from target directory", "level=info msg=Consuming Worker Machines from target directory", "level=info msg=Consuming Common Manifests from target directory", "level=info msg=Ignition-Configs created in: /root/ocp4 and /root/ocp4/auth"], "stdout": "", "stdout_lines": []}[0m
+
+TASK [ocp_bastion_installer : Find old ignition files] *************************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/ocp.yml:80[0m
+[0;32mok: [bastion.ocp4.example.com] => {"changed": false, "examined": 6, "files": [{"atime": 1753003230.5568366, "ctime": 1753003233.2498364, "dev": 64768, "gid": 0, "gr_name": "root", "inode": 1251387, "isblk": false, "ischr": false, "isdir": false, "isfifo": false, "isgid": false, "islnk": false, "isreg": true, "issock": false, "isuid": false, "mode": "0644", "mtime": 1753003223.8028367, "nlink": 1, "path": "/var/www/html/master.ign", "pw_name": "root", "rgrp": true, "roth": true, "rusr": true, "size": 1718, "uid": 0, "wgrp": false, "woth": false, "wusr": true, "xgrp": false, "xoth": false, "xusr": false}, {"atime": 1753003231.0258365, "ctime": 1753003233.2498364, "dev": 64768, "gid": 0, "gr_name": "root", "inode": 1251397, "isblk": false, "ischr": false, "isdir": false, "isfifo": false, "isgid": false, "islnk": false, "isreg": true, "issock": false, "isuid": false, "mode": "0644", "mtime": 1753003223.8198366, "nlink": 1, "path": "/var/www/html/worker.ign", "pw_name": "root", "rgrp": true, "roth": true, "rusr": true, "size": 1718, "uid": 0, "wgrp": false, "woth": false, "wusr": true, "xgrp": false, "xoth": false, "xusr": false}, {"atime": 1753003231.6068366, "ctime": 1753003233.2508366, "dev": 64768, "gid": 0, "gr_name": "root", "inode": 1251420, "isblk": false, "ischr": false, "isdir": false, "isfifo": false, "isgid": false, "islnk": false, "isreg": true, "issock": false, "isuid": false, "mode": "0644", "mtime": 1753003226.8178368, "nlink": 1, "path": "/var/www/html/bootstrap.ign", "pw_name": "root", "rgrp": true, "roth": true, "rusr": true, "size": 276959, "uid": 0, "wgrp": false, "woth": false, "wusr": true, "xgrp": false, "xoth": false, "xusr": false}], "matched": 3, "msg": "All paths examined", "skipped_paths": {}}[0m
+
+TASK [ocp_bastion_installer : Remove old ignition files] ***********************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/ocp.yml:86[0m
+[0;33mchanged: [bastion.ocp4.example.com] => (item={'path': '/var/www/html/master.ign', 'mode': '0644', 'isdir': False, 'ischr': False, 'isblk': False, 'isreg': True, 'isfifo': False, 'islnk': False, 'issock': False, 'uid': 0, 'gid': 0, 'size': 1718, 'inode': 1251387, 'dev': 64768, 'nlink': 1, 'atime': 1753003230.5568366, 'mtime': 1753003223.8028367, 'ctime': 1753003233.2498364, 'gr_name': 'root', 'pw_name': 'root', 'wusr': True, 'rusr': True, 'xusr': False, 'wgrp': False, 'rgrp': True, 'xgrp': False, 'woth': False, 'roth': True, 'xoth': False, 'isuid': False, 'isgid': False}) => {"ansible_loop_var": "item", "changed": true, "item": {"atime": 1753003230.5568366, "ctime": 1753003233.2498364, "dev": 64768, "gid": 0, "gr_name": "root", "inode": 1251387, "isblk": false, "ischr": false, "isdir": false, "isfifo": false, "isgid": false, "islnk": false, "isreg": true, "issock": false, "isuid": false, "mode": "0644", "mtime": 1753003223.8028367, "nlink": 1, "path": "/var/www/html/master.ign", "pw_name": "root", "rgrp": true, "roth": true, "rusr": true, "size": 1718, "uid": 0, "wgrp": false, "woth": false, "wusr": true, "xgrp": false, "xoth": false, "xusr": false}, "path": "/var/www/html/master.ign", "state": "absent"}[0m
+[0;33mchanged: [bastion.ocp4.example.com] => (item={'path': '/var/www/html/worker.ign', 'mode': '0644', 'isdir': False, 'ischr': False, 'isblk': False, 'isreg': True, 'isfifo': False, 'islnk': False, 'issock': False, 'uid': 0, 'gid': 0, 'size': 1718, 'inode': 1251397, 'dev': 64768, 'nlink': 1, 'atime': 1753003231.0258365, 'mtime': 1753003223.8198366, 'ctime': 1753003233.2498364, 'gr_name': 'root', 'pw_name': 'root', 'wusr': True, 'rusr': True, 'xusr': False, 'wgrp': False, 'rgrp': True, 'xgrp': False, 'woth': False, 'roth': True, 'xoth': False, 'isuid': False, 'isgid': False}) => {"ansible_loop_var": "item", "changed": true, "item": {"atime": 1753003231.0258365, "ctime": 1753003233.2498364, "dev": 64768, "gid": 0, "gr_name": "root", "inode": 1251397, "isblk": false, "ischr": false, "isdir": false, "isfifo": false, "isgid": false, "islnk": false, "isreg": true, "issock": false, "isuid": false, "mode": "0644", "mtime": 1753003223.8198366, "nlink": 1, "path": "/var/www/html/worker.ign", "pw_name": "root", "rgrp": true, "roth": true, "rusr": true, "size": 1718, "uid": 0, "wgrp": false, "woth": false, "wusr": true, "xgrp": false, "xoth": false, "xusr": false}, "path": "/var/www/html/worker.ign", "state": "absent"}[0m
+[0;33mchanged: [bastion.ocp4.example.com] => (item={'path': '/var/www/html/bootstrap.ign', 'mode': '0644', 'isdir': False, 'ischr': False, 'isblk': False, 'isreg': True, 'isfifo': False, 'islnk': False, 'issock': False, 'uid': 0, 'gid': 0, 'size': 276959, 'inode': 1251420, 'dev': 64768, 'nlink': 1, 'atime': 1753003231.6068366, 'mtime': 1753003226.8178368, 'ctime': 1753003233.2508366, 'gr_name': 'root', 'pw_name': 'root', 'wusr': True, 'rusr': True, 'xusr': False, 'wgrp': False, 'rgrp': True, 'xgrp': False, 'woth': False, 'roth': True, 'xoth': False, 'isuid': False, 'isgid': False}) => {"ansible_loop_var": "item", "changed": true, "item": {"atime": 1753003231.6068366, "ctime": 1753003233.2508366, "dev": 64768, "gid": 0, "gr_name": "root", "inode": 1251420, "isblk": false, "ischr": false, "isdir": false, "isfifo": false, "isgid": false, "islnk": false, "isreg": true, "issock": false, "isuid": false, "mode": "0644", "mtime": 1753003226.8178368, "nlink": 1, "path": "/var/www/html/bootstrap.ign", "pw_name": "root", "rgrp": true, "roth": true, "rusr": true, "size": 276959, "uid": 0, "wgrp": false, "woth": false, "wusr": true, "xgrp": false, "xoth": false, "xusr": false}, "path": "/var/www/html/bootstrap.ign", "state": "absent"}[0m
+
+TASK [ocp_bastion_installer : Find all .ign files in /root/ocp4] ***************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/ocp.yml:92[0m
+[0;32mok: [bastion.ocp4.example.com] => {"changed": false, "examined": 7, "files": [{"atime": 1753003759.189164, "ctime": 1753003759.189164, "dev": 64768, "gid": 0, "gr_name": "root", "inode": 537261882, "isblk": false, "ischr": false, "isdir": false, "isfifo": false, "isgid": false, "islnk": false, "isreg": true, "issock": false, "isuid": false, "mode": "0640", "mtime": 1753003759.189164, "nlink": 1, "path": "/root/ocp4/master.ign", "pw_name": "root", "rgrp": true, "roth": false, "rusr": true, "size": 1718, "uid": 0, "wgrp": false, "woth": false, "wusr": true, "xgrp": false, "xoth": false, "xusr": false}, {"atime": 1753003759.2361639, "ctime": 1753003759.2361639, "dev": 64768, "gid": 0, "gr_name": "root", "inode": 537261883, "isblk": false, "ischr": false, "isdir": false, "isfifo": false, "isgid": false, "islnk": false, "isreg": true, "issock": false, "isuid": false, "mode": "0640", "mtime": 1753003759.2361639, "nlink": 1, "path": "/root/ocp4/worker.ign", "pw_name": "root", "rgrp": true, "roth": false, "rusr": true, "size": 1718, "uid": 0, "wgrp": false, "woth": false, "wusr": true, "xgrp": false, "xoth": false, "xusr": false}, {"atime": 1753003762.3871639, "ctime": 1753003762.3871639, "dev": 64768, "gid": 0, "gr_name": "root", "inode": 537261884, "isblk": false, "ischr": false, "isdir": false, "isfifo": false, "isgid": false, "islnk": false, "isreg": true, "issock": false, "isuid": false, "mode": "0640", "mtime": 1753003762.3871639, "nlink": 1, "path": "/root/ocp4/bootstrap.ign", "pw_name": "root", "rgrp": true, "roth": false, "rusr": true, "size": 276975, "uid": 0, "wgrp": false, "woth": false, "wusr": true, "xgrp": false, "xoth": false, "xusr": false}], "matched": 3, "msg": "All paths examined", "skipped_paths": {}}[0m
+
+TASK [ocp_bastion_installer : Copy .ign files to /var/www/html] ****************
+[1;30mtask path: /root/OpenShift-Automation/roles/ocp_bastion_installer/tasks/ocp.yml:98[0m
+[0;33mchanged: [bastion.ocp4.example.com] => (item={'path': '/root/ocp4/master.ign', 'mode': '0640', 'isdir': False, 'ischr': False, 'isblk': False, 'isreg': True, 'isfifo': False, 'islnk': False, 'issock': False, 'uid': 0, 'gid': 0, 'size': 1718, 'inode': 537261882, 'dev': 64768, 'nlink': 1, 'atime': 1753003759.189164, 'mtime': 1753003759.189164, 'ctime': 1753003759.189164, 'gr_name': 'root', 'pw_name': 'root', 'wusr': True, 'rusr': True, 'xusr': False, 'wgrp': False, 'rgrp': True, 'xgrp': False, 'woth': False, 'roth': False, 'xoth': False, 'isuid': False, 'isgid': False}) => {"ansible_loop_var": "item", "changed": true, "checksum": "ad7d6d7e417792481336bf8389e3bc24c746bab8", "dest": "/var/www/html/master.ign", "gid": 0, "group": "root", "item": {"atime": 1753003759.189164, "ctime": 1753003759.189164, "dev": 64768, "gid": 0, "gr_name": "root", "inode": 537261882, "isblk": false, "ischr": false, "isdir": false, "isfifo": false, "isgid": false, "islnk": false, "isreg": true, "issock": false, "isuid": false, "mode": "0640", "mtime": 1753003759.189164, "nlink": 1, "path": "/root/ocp4/master.ign", "pw_name": "root", "rgrp": true, "roth": false, "rusr": true, "size": 1718, "uid": 0, "wgrp": false, "woth": false, "wusr": true, "xgrp": false, "xoth": false, "xusr": false}, "md5sum": "e0a277c2e5f63fce3a9ad6bc28d583df", "mode": "0640", "owner": "root", "secontext": "system_u:object_r:httpd_sys_content_t:s0", "size": 1718, "src": "/root/ocp4/master.ign", "state": "file", "uid": 0}[0m
